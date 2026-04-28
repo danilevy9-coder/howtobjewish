@@ -1,0 +1,1268 @@
+
+==========================================================
+  Unsplash Image Assignment Script
+  howtobjewish.org
+==========================================================
+
+(node:73028) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Total posts in database: 226
+Already completed: 0
+Used photo IDs: 0
+Cached searches: 15
+Failed (no photo found): 0
+
+Posts without featured_image: 226
+Pending to process: 226
+
+Estimated: 6 batch(es), ~6h 12m total
+Starting at 13:01:19
+
+
+[1/226] "404" (404-2)
+  Found: "grayscale photography of five people sitting near table" by The New York Public Library (query: "404 jewish")
+  Uploading to Cloudinary...
+  Done! (The New York Public Library - Unsplash)
+
+[2/226] "A Beginner’s Guide to Checking Vegetables for Bugs" (a-beginners-guide-to-checking-vegetables-for-bugs)
+  Found: "a group of people at a market" by Aritras Saha (query: "beginners guide checking vegetables")
+  Uploading to Cloudinary...
+  Done! (Aritras Saha - Unsplash)
+
+[3/226] "A Beginner’s Guide to the Tu Bishvat Seder" (a-beginners-guide-to-the-tu-bishvat-seder-2)
+  Found: "A man sitting in front of a table filled with food" by AJOY DAS (query: "beginners guide bishvat seder")
+  Uploading to Cloudinary...
+  Done! (AJOY DAS - Unsplash)
+
+[4/226] "A Beginner’s Guide to the Tu Bishvat Seder" (a-beginners-guide-to-the-tu-bishvat-seder-3)
+  Found: "A person arranging offerings on banana leaves" by Sushanta Rokka (query: "beginners guide bishvat seder")
+  Uploading to Cloudinary...
+  Done! (Sushanta Rokka - Unsplash)
+
+[5/226] "A Beginner’s Guide to the Tu Bishvat Seder" (a-beginners-guide-to-the-tu-bishvat-seder)
+  Found: "text" by Annie Spratt (query: "beginners guide bishvat seder")
+  Uploading to Cloudinary...
+  Done! (Annie Spratt - Unsplash)
+
+[6/226] "About" (about)
+  Found: "black framed eyeglasses on book page" by DAVIDSON L U N A (query: "jewish life spirituality")
+  Uploading to Cloudinary...
+  Done! (DAVIDSON L U N A - Unsplash)
+
+[7/226] "Al HaNissim and Hallel" (al-hanissim-and-hallel)
+  Found: "A brick building with a sign that reads hamelinna" by Jim Tran (query: "hanissim hallel")
+  Uploading to Cloudinary...
+  Done! (Jim Tran - Unsplash)
+
+[8/226] "An Honest Guide to Jewish Jargon: What Are They Saying" (jewish-jargon-guide)
+  Found: "a close up of a text on a book" by Brett Jordan (query: "honest guide jewish jargon")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[9/226] "Are Grasshoppers Kosher?" (are-grasshoppers-kosher)
+  Found: "a close up of a grasshopper on the ground" by William Warby (query: "grasshoppers kosher")
+  Uploading to Cloudinary...
+  Done! (William Warby - Unsplash)
+
+[10/226] "Asara B'Tevet: The Siege of Jerusalem" (asara-btevet-the-siege-of-jerusalem)
+  Found: "text" by Brett Jordan (query: "asara b'tevet jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+--- Progress: 10 success, 0 failed, 216 remaining | Rate limit: 50 ---
+
+
+[11/226] "Bar and Bat Mitzvah Guide" (bar-and-bat-mitzvah-guide-2)
+  Found: "A group of people standing next to each other at a party" by Gabriel Martin (query: "bar bat mitzvah guide")
+  Uploading to Cloudinary...
+  Done! (Gabriel Martin - Unsplash)
+
+[12/226] "Bar and Bat Mitzvah Guide" (bar-and-bat-mitzvah-guide)
+  Found: "a group of young people standing next to each other" by Leo Chen (query: "bar bat mitzvah guide")
+  Uploading to Cloudinary...
+  Done! (Leo Chen - Unsplash)
+
+[13/226] "Birkat Hamazon (Grace After Meals)" (birkat-hamazon-grace-after-meals)
+  Found: "Thanksgiving dinner with turkey, cranberry sauce, and broccoli." by David Todd McCarty (query: "birkat hamazon grace meals")
+  Uploading to Cloudinary...
+  Done! (David Todd McCarty - Unsplash)
+
+[14/226] "Bishul Yisrael in Restaurants" (bishul-yisrael-in-restaurants)
+  Found: "text" by Diana Polekhina (query: "bishul judaism")
+  Uploading to Cloudinary...
+  Done! (Diana Polekhina - Unsplash)
+
+[15/226] "Blessing Children on Friday Night" (blessing-children-on-friday-night)
+  Found: "a blurry photo of a church with the words for this child i have passed" by Jametlene Reskp (query: "blessing children friday night")
+  Uploading to Cloudinary...
+  Done! (Jametlene Reskp - Unsplash)
+
+[16/226] "Blessings Before and After Eating" (blessings-before-and-after-eating)
+  Found: "a woman sitting at a table eating a pastry" by Look Studio (query: "blessings eating")
+  Uploading to Cloudinary...
+  Done! (Look Studio - Unsplash)
+
+[17/226] "Blowing the Shofar" (blowing-the-shofar)
+  Found: "man wearing red turban headdress" by Yogesh Pedamkar (query: "blowing shofar")
+  Uploading to Cloudinary...
+  Done! (Yogesh Pedamkar - Unsplash)
+
+[18/226] "Borer: The Prohibition of Selecting" (borer-the-prohibition-of-selecting)
+  Found: "Sign listing four prohibitions: no smoking, littering, loitering, skateboarding." by David Trinks (query: "borer prohibition selecting")
+  Uploading to Cloudinary...
+  Done! (David Trinks - Unsplash)
+
+[19/226] "Building a Jewish Home" (building-a-jewish-home-2)
+  Found: "Grand entrance with classical columns and ornate facade" by Nikolai Kolosov (query: "building jewish jewish")
+  Uploading to Cloudinary...
+  Done! (Nikolai Kolosov - Unsplash)
+
+[20/226] "Building a Jewish Home" (building-a-jewish-home)
+  Found: "a tall tower with a clock on top of it" by Kristijan Arsov (query: "building jewish jewish")
+  Uploading to Cloudinary...
+  Done! (Kristijan Arsov - Unsplash)
+
+--- Progress: 20 success, 0 failed, 206 remaining | Rate limit: 40 ---
+
+
+[21/226] "Building a Kosher Sukkah" (building-a-kosher-sukkah)
+  Found: "a large building with a clock on the side of it" by aboodi vesakaran (query: "building kosher sukkah")
+  Uploading to Cloudinary...
+  Done! (aboodi vesakaran - Unsplash)
+
+[22/226] "Building a Sukkah: Halachic Requirements" (building-a-sukkah-halachic-requirements)
+  Found: "Mosque and apartment buildings in a sunny urban setting." by Fatih Beki (query: "building sukkah halachic requirements")
+  Uploading to Cloudinary...
+  Done! (Fatih Beki - Unsplash)
+
+[23/226] "Carrying Children on Shabbat" (carrying-children-on-shabbat)
+  Found: "three people walking down a street carrying baskets" by Sheila C (query: "carrying children shabbat")
+  Uploading to Cloudinary...
+  Done! (Sheila C - Unsplash)
+
+[24/226] "Carrying on Shabbat and the Eruv" (carrying-on-shabbat-and-the-eruv)
+  Found: "a man in a garment" by shraga kopstein (query: "carrying shabbat eruv")
+  Uploading to Cloudinary...
+  Done! (shraga kopstein - Unsplash)
+
+[25/226] "Cart" (cart)
+  Found: "a couple of men standing next to a baby carriage" by Aharon Luria (query: "cart jewish")
+  Uploading to Cloudinary...
+  Done! (Aharon Luria - Unsplash)
+
+[26/226] "Chalav Yisrael vs. Chalav Stam" (chalav-yisrael-vs-chalav-stam)
+  Found: "a close up of a rock with writing on it" by Jonny Gios (query: "chalav yisrael chalav stam")
+  Uploading to Cloudinary...
+  Done! (Jonny Gios - Unsplash)
+
+[27/226] "Challah and HaMotzi" (challah-and-hamotzi)
+  Found: "a plate of food" by Ashkan Gharvaryani (query: "challah hamotzi")
+  Uploading to Cloudinary...
+  Done! (Ashkan Gharvaryani - Unsplash)
+
+[28/226] "Chanukah Foods and Games" (chanukah-foods-and-games)
+  Found: "a pile of gold coins sitting on top of a table" by Joey Dean (query: "chanukah foods games")
+  Uploading to Cloudinary...
+  Done! (Joey Dean - Unsplash)
+
+[29/226] "Charity (Tzedakah) in Jewish Life" (charity-tzedakah-in-jewish-life-2)
+  Found: "a crowd of people standing outside of a building" by András Rátonyi (query: "charity tzedakah jewish life")
+  Uploading to Cloudinary...
+  Done! (András Rátonyi - Unsplash)
+
+[30/226] "Charity (Tzedakah) in Jewish Life" (charity-tzedakah-in-jewish-life)
+  Found: "Man in hat walks past building at night" by Mathias Reding (query: "charity tzedakah jewish life")
+  Uploading to Cloudinary...
+  Done! (Mathias Reding - Unsplash)
+
+--- Progress: 30 success, 0 failed, 196 remaining | Rate limit: 31 ---
+
+
+[31/226] "Checking Broccoli and Cauliflower" (checking-broccoli-and-cauliflower)
+  Found: "A white bowl filled with purple and green broccoli" by Michael Carruth (query: "checking broccoli cauliflower")
+  Uploading to Cloudinary...
+  Done! (Michael Carruth - Unsplash)
+
+[32/226] "Checkout" (checkout)
+  Found: "a pile of pink and white posters on a table" by Levi Meir Clancy (query: "checkout jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[33/226] "Chol Hamoed: What Work is Permitted?" (chol-hamoed-what-work-is-permitted)
+  Found: "A road work ahead sign laying on the ground" by Danny Burke (query: "chol hamoed work permitted")
+  Uploading to Cloudinary...
+  Done! (Danny Burke - Unsplash)
+
+[34/226] "Classic Shabbat Foods" (classic-shabbat-foods)
+  Found: "A table is set with various delicious dishes." by Haim Charbit (query: "classic shabbat foods")
+  Uploading to Cloudinary...
+  Done! (Haim Charbit - Unsplash)
+
+[35/226] "Cleaning for Chametz" (cleaning-for-chametz)
+  Found: "man in brown jacket holding black and gray stick" by zibik (query: "cleaning judaism")
+  Uploading to Cloudinary...
+  Done! (zibik - Unsplash)
+
+[36/226] "Cleaning Your Car for Passover: A Checklist" (cleaning-your-car-for-passover-a-checklist)
+  Found: "clear glass pitcher on white table" by Nathana Rebouças (query: "cleaning car passover checklist")
+  Uploading to Cloudinary...
+  Done! (Nathana Rebouças - Unsplash)
+
+[37/226] "Cleaning Your Car for Passover: A Checklist" (cleaning-your-car-for-passover-a-checklist-2)
+  Found: "woman in white dress sitting on white mercedes benz car" by Erik Mclean (query: "cleaning car passover checklist")
+  Uploading to Cloudinary...
+  Done! (Erik Mclean - Unsplash)
+
+[38/226] "Communities in HIstory" (communities-in-history)
+  Found: "white and brown concrete building under blue sky during daytime" by iqra ali (query: "communities history")
+  Uploading to Cloudinary...
+  Done! (iqra ali - Unsplash)
+
+[39/226] "Contact" (contact)
+  Found: "a man standing in front of a brick building" by Maayan Nemanov (query: "contact jewish")
+  Uploading to Cloudinary...
+  Done! (Maayan Nemanov - Unsplash)
+
+[40/226] "Costumes and Celebrations" (costumes-and-celebrations)
+  Found: "People in yellow costumes at a street parade" by Raman Shaunia (query: "costumes celebrations")
+  Uploading to Cloudinary...
+  Done! (Raman Shaunia - Unsplash)
+
+--- Progress: 40 success, 0 failed, 186 remaining | Rate limit: 20 ---
+
+
+[41/226] "Counting the Omer: A 49-Day Spiritual Journey" (counting-the-omer-a-49-day-spiritual-journey)
+  Found: "a close up of a book on a table" by Brett Jordan (query: "counting omer jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[42/226] "Creating a Peaceful Shabbat Atmosphere" (creating-a-peaceful-shabbat-atmosphere)
+  Found: "man in brown shirt" by Dawid Matyszczyk (query: "creating peaceful jewish")
+  Uploading to Cloudinary...
+  Done! (Dawid Matyszczyk - Unsplash)
+
+[43/226] "Dancing with the Torah" (dancing-with-the-torah)
+  Found: "a gold and black statue" by shraga kopstein (query: "dancing torah")
+  Uploading to Cloudinary...
+  Done! (shraga kopstein - Unsplash)
+
+[44/226] "Decorating with Flowers: The Shavuot Custom" (decorating-with-flowers-the-shavuot-custom)
+  Found: "A vintage car decorated with beautiful red flowers." by Ash Shvoyan (query: "decorating flowers shavuot custom")
+  Uploading to Cloudinary...
+  Done! (Ash Shvoyan - Unsplash)
+
+[45/226] "DIY Sukkah Decorations for Kids" (diy-sukkah-decorations-for-kids)
+  Found: "white printer paper on brown wooden table" by Brett Jordan (query: "diy sukkah jewish")
+  Uploading to Cloudinary...
+  [DB ERROR] diy-sukkah-decorations-for-kids: TypeError: fetch failed
+
+[46/226] "Eating and Sleeping in the Sukkah" (eating-and-sleeping-in-the-sukkah)
+  Found: "a woman sitting on the floor eating food" by Masjid Pogung Raya (query: "eating sleeping sukkah")
+  Uploading to Cloudinary...
+  Done! (Masjid Pogung Raya - Unsplash)
+
+[47/226] "Electricity and Technology on Shabbat" (electricity-and-technology-on-shabbat)
+  Found: "Danger electrocution risk sign with lightning bolt" by mdreza jalali (query: "electricity technology shabbat")
+  Uploading to Cloudinary...
+  Done! (mdreza jalali - Unsplash)
+
+[48/226] "Elul: Why Is 'The King in the Field'?" (elul-why-is-the-king-in-the-field)
+  Found: "a man with long hair and a beard wearing a black jacket" by Levi Meir Clancy (query: "elul 'the jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[49/226] "Eruv Tavshilin: Cooking for Shabbat on Holidays" (eruv-tavshilin-cooking-for-shabbat-on-holidays)
+  Found: "person holding stainless steel tray with pie" by Mofeda Dababo (query: "eruv tavshilin cooking shabbat")
+  Uploading to Cloudinary...
+  Done! (Mofeda Dababo - Unsplash)
+
+[50/226] "Eshet Chayil: Honoring Jewish Women" (eshet-chayil-honoring-jewish-women)
+  Found: "a number of plaques on a wall with writing on them" by Levi Meir Clancy (query: "eshet chayil honoring jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+--- Progress: 49 success, 1 failed, 176 remaining | Rate limit: 6 ---
+
+
+[51/226] "Etiquette for Shabbat Guests" (etiquette-for-shabbat-guests)
+  Found: "a group of people sitting at a long table" by Green Prophet (query: "etiquette shabbat guests")
+  Uploading to Cloudinary...
+  Done! (Green Prophet - Unsplash)
+
+[52/226] "European Jewish History" (european-jewish-history)
+  Found: "Old european building with red tiled roofs and lamp post." by 𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤 (query: "european jewish history")
+  Uploading to Cloudinary...
+  Done! (𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤 - Unsplash)
+
+[53/226] "Explaining Judaism to Your Partner" (explain-judaism-to-partner)
+  Found: "a man in a black suit and hat standing in front of a crowd of people" by MIGUEL BAIXAULI (query: "explaining judaism partner")
+  Uploading to Cloudinary...
+  Done! (MIGUEL BAIXAULI - Unsplash)
+
+[54/226] "Famous Jewish Commentators (Rashi, Rambam, etc.)" (famous-jewish-commentators-rashi-rambam-etc)
+  Found: "a plaque with a quote on it surrounded by flowers" by Sandy Millar (query: "famous jewish jewish")
+  Uploading to Cloudinary...
+  Done! (Sandy Millar - Unsplash)
+
+[55/226] "Finding a Mentor or Rabbi" (finding-a-mentor-or-rabbi)
+  Found: "man in black coat and black hat" by Jorge Fernández Salas (query: "finding mentor rabbi")
+  Uploading to Cloudinary...
+  Done! (Jorge Fernández Salas - Unsplash)
+
+[56/226] "Finding a Mentor or Rabbi" (finding-a-mentor-or-rabbi-2)
+
+----------------------------------------------------------
+  Batch complete: 54 succeeded this batch
+  Rate limit cooldown: waiting 58m 36s
+  Will resume at ~14:03:20
+----------------------------------------------------------
+
+Resuming at 14:03:20...
+  Found: "Man in hat reading book on park bench." by Vitaly Gariev (query: "finding mentor rabbi")
+  Uploading to Cloudinary...
+  Done! (Vitaly Gariev - Unsplash)
+
+[57/226] "Freedom and Emunah" (freedom-and-emunah)
+  Found: "a man holding a red flag with the word freedom on it" by Nate Steele (query: "freedom emunah")
+  Uploading to Cloudinary...
+  Done! (Nate Steele - Unsplash)
+
+[58/226] "Glatt Kosher: What Does It Mean?" (glatt-kosher-what-does-it-mean)
+  Found: "text" by Brett Jordan (query: "glatt kosher mean")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[59/226] "Grape Juice vs. Wine for Kiddush" (grape-juice-vs-wine-for-kiddush)
+  Found: "red round fruit beside clear wine glass" by Callum Hill (query: "grape juice wine kiddush")
+  Uploading to Cloudinary...
+  Done! (Callum Hill - Unsplash)
+
+[60/226] "Guide to Sukkot" (guide-to-sukkot)
+  Found: "a person on skis on a snowy mountain" by Hendrik Morkel (query: "guide sukkot")
+  Uploading to Cloudinary...
+  Done! (Hendrik Morkel - Unsplash)
+
+--- Progress: 59 success, 1 failed, 166 remaining | Rate limit: 46 ---
+
+
+[61/226] "Hamantaschen vs. Oznay Haman: History &amp; Recipe" (hamantaschen-vs-oznay-haman-history-recipe)
+  Found: "Close-up of text in an open book." by Brett Jordan (query: "hamantaschen oznay haman history")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[62/226] "Hamantaschen vs. Oznay Haman: History &amp; Recipe" (hamantaschen-vs-oznay-haman-history-recipe-2)
+  Found: "Close-up of an open book with text." by Brett Jordan (query: "hamantaschen oznay haman history")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[63/226] "Hard Cheese and Waiting Periods" (hard-cheese-and-waiting-periods)
+  Found: "Cheeses are on display at a market stall." by Luba Glazunova (query: "hard cheese waiting periods")
+  Uploading to Cloudinary...
+  Done! (Luba Glazunova - Unsplash)
+
+[64/226] "Havdalah Candle: Why Is It Braided?" (havdalah-candle-why-is-it-braided)
+  Found: "black candle holder" by Benigno Hoyuela (query: "havdalah candle jewish")
+  Uploading to Cloudinary...
+  Done! (Benigno Hoyuela - Unsplash)
+
+[65/226] "Havdalah: Ending Shabbat" (havdalah-ending-shabbat)
+  Found: "a close up of an open book with text" by Brett Jordan (query: "havdalah ending shabbat")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[66/226] "Home" (home)
+  Found: "a group of cloth dolls sitting on top of a table" by shraga kopstein (query: "home jewish")
+  Uploading to Cloudinary...
+  Done! (shraga kopstein - Unsplash)
+
+[67/226] "Honesty and Business Ethics" (honesty-and-business-ethics)
+  Found: "a close up of a typewriter with a paper on it" by Markus Winkler (query: "honesty business ethics")
+  Uploading to Cloudinary...
+  Done! (Markus Winkler - Unsplash)
+
+[68/226] "Honesty and Business Ethics" (honesty-and-business-ethics-2)
+  Found: "a sticker on a pole near a body of water" by Markus Spiske (query: "honesty business ethics")
+  Uploading to Cloudinary...
+  Done! (Markus Spiske - Unsplash)
+
+[69/226] "Hoshanah Rabbah: The Willow Branch Custom" (hoshanah-rabbah-the-willow-branch-custom)
+  Found: "Weeping willow tree branches with long green leaves" by 𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤 (query: "hoshanah rabbah willow branch")
+  Uploading to Cloudinary...
+  Done! (𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤 - Unsplash)
+
+[70/226] "Hosting Guests on Shabbat" (hosting-guests-on-shabbat)
+  Found: "a close up of bread rolls with sesame seeds" by Ashe Walker (query: "hosting guests shabbat")
+  Uploading to Cloudinary...
+  Done! (Ashe Walker - Unsplash)
+
+--- Progress: 69 success, 1 failed, 156 remaining | Rate limit: 37 ---
+
+
+[71/226] "How to Be Jewish?" (how-to-be-jewish)
+  Found: "A decorative, star-shaped jewish menorah." by Aleks Megen (query: "jewish jewish")
+  Uploading to Cloudinary...
+  Done! (Aleks Megen - Unsplash)
+
+[72/226] "How to Celebrate Rosh Hashanah" (how-to-celebrate-rosh-hashanah)
+  Found: "red and green fruit on display" by Nechama Lock (query: "celebrate rosh hashanah")
+  Uploading to Cloudinary...
+  Done! (Nechama Lock - Unsplash)
+
+[73/226] "How to Check Lettuce for Bugs" (how-to-check-lettuce-for-bugs)
+  Found: "a striped bug sitting on top of a green leafy plant" by Olga Nevajno (query: "check lettuce bugs")
+  Uploading to Cloudinary...
+  Done! (Olga Nevajno - Unsplash)
+
+[74/226] "How to Cook for Shabbat" (how-to-cook-for-shabbat)
+  Found: "baked bread" by Evgeni Tcherkasski (query: "cook shabbat")
+  Uploading to Cloudinary...
+  Done! (Evgeni Tcherkasski - Unsplash)
+
+[75/226] "How to Kasher Your Kitchen: A Step-by-Step Guide" (how-to-kasher-your-kitchen-a-step-by-step-guide)
+  Found: "grayscale photo of store front" by Nick Clement (query: "kasher kitchen jewish")
+  Uploading to Cloudinary...
+  Done! (Nick Clement - Unsplash)
+
+[76/226] "How to Kasher Your Oven for Passover" (how-to-kasher-your-oven-for-passover)
+  Found: "white and brown star on brown tree branch" by David Holifield (query: "jewish life spirituality")
+  Uploading to Cloudinary...
+  Done! (David Holifield - Unsplash)
+
+[77/226] "How to Kasher Your Oven for Passover" (how-to-kasher-your-oven-for-passover-2)
+  Found: "A close up of an open book on a table" by Brett Jordan (query: "jewish life spirituality")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[78/226] "How to Keep Shabbat: A Beginner's Guide" (how-to-keep-shabbat-a-beginners-guide)
+  Found: "text" by Brett Jordan (query: "keep shabbat beginner's guide")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[79/226] "How to Make Shabbat Early in Summer" (how-to-make-shabbat-early-in-summer)
+  Found: "text" by Brett Jordan (query: "shabbat early summer")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[80/226] "How to Prepare for Passover" (how-to-prepare-for-passover)
+  Found: "white paper document on brown wooden table" by Mattia Panz (query: "prepare passover")
+  Uploading to Cloudinary...
+  Done! (Mattia Panz - Unsplash)
+
+--- Progress: 79 success, 1 failed, 146 remaining | Rate limit: 25 ---
+
+
+[81/226] "How to Prepare for the Fast" (how-to-prepare-for-the-fast)
+  Found: "Rider in gear next to a black sport motorcycle." by Mihai Neagu (query: "prepare fast")
+  Uploading to Cloudinary...
+  Done! (Mihai Neagu - Unsplash)
+
+[82/226] "How to Put on Tefillin" (how-to-put-on-tefillin)
+  Found: "shallow focus photo of person holding book" by Francesco Alberti (query: "put tefillin jewish")
+  Uploading to Cloudinary...
+  Done! (Francesco Alberti - Unsplash)
+
+[83/226] "How to Start Keeping Kosher" (how-to-start-keeping-kosher)
+  Found: "text" by Brett Jordan (query: "start keeping kosher")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[84/226] "How to Start Keeping Kosher: A Beginner’s Guide" (how-to-start-keeping-kosher-a-beginners-guide-2)
+  Found: "white book page on brown wooden table" by Brett Jordan (query: "start keeping kosher beginners")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[85/226] "Israel Modern Era" (israel-modern-era)
+  Found: "Toy soldiers, flags, and jet on map" by Saifee Art (query: "israel modern era")
+  Uploading to Cloudinary...
+  Done! (Saifee Art - Unsplash)
+
+[86/226] "Jewish Approach to Work and Rest" (jewish-approach-to-work-and-rest-guide)
+  Found: "A close up of a book with writing on it" by Brett Jordan (query: "jewish approach work rest")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[87/226] "Jewish Approach to Work and Rest" (jewish-approach-to-work-and-rest)
+  Found: "brown wooden blocks on white surface" by Brett Jordan (query: "jewish approach work rest")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[88/226] "Jewish Clothing and Modesty" (jewish-clothing-and-modesty)
+  Found: "grayscale photography of group of people" by Quino Al (query: "jewish clothing modesty")
+  Uploading to Cloudinary...
+  Done! (Quino Al - Unsplash)
+
+[89/226] "Jewish Clothing and Modesty" (jewish-clothing-and-modesty-2)
+  Found: "two men dressed in white standing next to each other" by ישראל ויסוצקי (query: "jewish clothing modesty")
+  Uploading to Cloudinary...
+  Done! (ישראל ויסוצקי - Unsplash)
+
+[90/226] "Jewish Holidays" (jewish-holidays)
+  Found: "a group of people sitting around a fire pit" by Sara Rostenne (query: "jewish holidays")
+  Uploading to Cloudinary...
+  Done! (Sara Rostenne - Unsplash)
+
+--- Progress: 89 success, 1 failed, 136 remaining | Rate limit: 16 ---
+
+
+[91/226] "Jewish Mourning and Shiva" (jewish-mourning-and-shiva-2)
+  Found: "a crocheted hat with a star of david on it" by Marek Studzinski (query: "jewish mourning shiva")
+  Uploading to Cloudinary...
+  Done! (Marek Studzinski - Unsplash)
+
+[92/226] "Jewish Mourning and Shiva" (jewish-mourning-and-shiva)
+  Found: "a jewish hat with a star of david on it" by Marek Studzinski (query: "jewish mourning shiva")
+  Uploading to Cloudinary...
+  Done! (Marek Studzinski - Unsplash)
+
+[93/226] "Jewish Wedding Traditions" (jewish-wedding-traditions)
+  Found: "clear long-stem wine glass" by Anton Mislawsky (query: "jewish wedding traditions")
+  Uploading to Cloudinary...
+  Done! (Anton Mislawsky - Unsplash)
+
+[94/226] "Jewish Wedding Traditions" (jewish-wedding-traditions-2)
+  Found: "woman in wedding veil" by Humberto Chávez (query: "jewish wedding traditions")
+  Uploading to Cloudinary...
+  Done! (Humberto Chávez - Unsplash)
+
+[95/226] "Jewish Wedding Traditions" (jewish-wedding-traditions-3)
+  Found: "grayscale photography of wedding coupe" by Richard Jaimes (query: "jewish wedding traditions")
+  Uploading to Cloudinary...
+  Done! (Richard Jaimes - Unsplash)
+
+[96/226] "Kapparot: Chicken vs. Money" (kapparot-chicken-vs-money)
+  Found: "opened book" by Natalia Y. (query: "kapparot judaism")
+  Uploading to Cloudinary...
+  Done! (Natalia Y. - Unsplash)
+
+[97/226] "Kiddush and Wine on Shabbat" (kiddush-and-wine-on-shabbat)
+  Found: "cluster of grapes on silver goblet cups" by Marek Studzinski (query: "kiddush wine jewish")
+  Uploading to Cloudinary...
+  Done! (Marek Studzinski - Unsplash)
+
+[98/226] "Kindness and Respect in Judaism" (kindness-and-respect-in-judaism)
+  Found: "a stained glass window with a star of david on it" by Salvatore Favata (query: "kindness respect judaism")
+  Uploading to Cloudinary...
+  Done! (Salvatore Favata - Unsplash)
+
+[99/226] "Kindness and Respect in Judaism" (kindness-and-respect-judaism)
+  Found: "Close-up of an open book with text on pages." by Brett Jordan (query: "kindness respect judaism")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[100/226] "Kol Nidrei and Neilah Explained" (kol-nidrei-and-neilah-explained)
+  Found: "Close-up of text from a book about noah's descendants." by Brett Jordan (query: "kol nidrei neilah explained")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+--- Progress: 99 success, 1 failed, 126 remaining | Rate limit: 7 ---
+
+
+[101/226] "Kosher Animals and Fish: What Can We Eat?" (kosher-animals-and-fish-what-can-we-eat)
+  Found: "a large bird perched on top of a pole eating a fish" by Mosharraf Hossain (query: "kosher animals fish eat")
+  Uploading to Cloudinary...
+  Done! (Mosharraf Hossain - Unsplash)
+
+[102/226] "Kosher Symbols Guide" (kosher-symbols-guide)
+  Found: "Egyptian hieroglyphs and egyptian hieroglyglyglyglyglyglygly" by Declan Sun (query: "kosher symbols guide")
+  Uploading to Cloudinary...
+  Done! (Declan Sun - Unsplash)
+
+[103/226] "Kosher Wine and Mevushal: What You Need to Know" (kosher-wine-and-mevushal-what-you-need-to-know)
+
+----------------------------------------------------------
+  Batch complete: 101 succeeded this batch
+  Rate limit cooldown: waiting 59m 0s
+  Will resume at ~15:05:20
+----------------------------------------------------------
+
+Resuming at 15:05:20...
+  Found: "a bottle of wine next to a glass of wine" by Brett Jordan (query: "kosher wine mevushal")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[104/226] "Lechem Mishneh: Why Two Loaves?" (lechem-mishneh-why-two-loaves)
+  Found: "2 brown bread on black table" by Markus Winkler (query: "lechem mishneh two loaves")
+  Uploading to Cloudinary...
+  Done! (Markus Winkler - Unsplash)
+
+[105/226] "Life Style" (life-style)
+  Found: "two women holding cup with cream" by Vitaly Sacred (query: "life style")
+  Uploading to Cloudinary...
+  Done! (Vitaly Sacred - Unsplash)
+
+[106/226] "Lighting Shabbat Candles" (lighting-shabbat-candles)
+  Found: "a person lighting a menorah with candles" by Natalie Smith (query: "lighting shabbat candles")
+  Uploading to Cloudinary...
+  Done! (Natalie Smith - Unsplash)
+
+[107/226] "Lighting the Menorah" (lighting-the-menorah)
+  Found: "Men stand near wall of lit lanterns at night." by Aharon Luria (query: "lighting menorah")
+  Uploading to Cloudinary...
+  Done! (Aharon Luria - Unsplash)
+
+[108/226] "Lighting the Menorah: Chanukah" (lighting-the-menorah-chanukah)
+  Found: "a group of lit candles in a dark room" by Gary Sankary (query: "lighting menorah chanukah")
+  Uploading to Cloudinary...
+  Done! (Gary Sankary - Unsplash)
+
+[109/226] "Machzor and Rosh Hashanah Prayers" (machzor-and-rosh-hashanah-prayers)
+  Found: "man in black long sleeve shirt sitting beside man in black long sleeve shirt" by أخٌ‌في‌الله (query: "machzor rosh hashanah prayers")
+  Uploading to Cloudinary...
+  Done! (أخٌ‌في‌الله - Unsplash)
+
+[110/226] "Making Shabbat Meaningful for Kids" (making-shabbat-meaningful-for-kids)
+  Found: "a close up of a person kneading food on a table" by Андрей Сизов (query: "making shabbat jewish")
+  Uploading to Cloudinary...
+  Done! (Андрей Сизов - Unsplash)
+
+--- Progress: 109 success, 1 failed, 116 remaining | Rate limit: 41 ---
+
+
+[111/226] "Matanot L'Evyonim: The Mitzvah of Giving" (matanot-levyonim-the-mitzvah-of-giving-2)
+  Found: "a group of books" by shraga kopstein (query: "matanot l'evyonim jewish")
+  Uploading to Cloudinary...
+  Done! (shraga kopstein - Unsplash)
+
+[112/226] "Matanot L'Evyonim: The Mitzvah of Giving" (matanot-levyonim-the-mitzvah-of-giving)
+  Found: "a close up of an open book with text" by Brett Jordan (query: "matanot l'evyonim jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[113/226] "Melave Malka: The Post-Shabbat Meal" (melave-malka-the-post-shabbat-meal)
+  Found: "pizza on white ceramic plate" by Ronit Shaked (query: "melave malka post-shabbat meal")
+  Uploading to Cloudinary...
+  Done! (Ronit Shaked - Unsplash)
+
+[114/226] "Mevushal Wine: Why Boil It?" (mevushal-wine-why-boil-it)
+  Found: "gold and black trophy on brown wooden table" by Matthew Lancaster (query: "mevushal judaism")
+  Uploading to Cloudinary...
+  Done! (Matthew Lancaster - Unsplash)
+
+[115/226] "Mishloach Manot: 10 Creative Theme Ideas" (mishloach-manot-10-creative-theme-ideas)
+  Found: "person and child walking on seashore" by Vidar Nordli-Mathisen (query: "mishloach manot creative theme")
+  Uploading to Cloudinary...
+  Done! (Vidar Nordli-Mathisen - Unsplash)
+
+[116/226] "Mishloach Manot: 10 Creative Theme Ideas" (mishloach-manot-10-creative-theme-ideas-2)
+  Found: "Small village nestled in green rolling hills under cloudy sky" by Anna Hunko (query: "mishloach manot creative theme")
+  Uploading to Cloudinary...
+  Done! (Anna Hunko - Unsplash)
+
+[117/226] "Morning and Bedtime Routines in Jewish Law" (morning-and-bedtime-routines-in-jewish-law)
+  Found: "a person lying on a bed" by Beatriz Reynolds (query: "morning bedtime routines jewish")
+  Uploading to Cloudinary...
+  Done! (Beatriz Reynolds - Unsplash)
+
+[118/226] "Muktzeh: What You Can't Touch on Shabbat" (muktzeh-what-you-cant-touch-on-shabbat)
+  Found: "a close up of an open book with text" by Brett Jordan (query: "muktzeh can't touch shabbat")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[119/226] "My account" (my-account)
+  Found: "text" by Brett Jordan (query: "account jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[120/226] "Naming a Jewish Baby" (naming-a-jewish-baby)
+  Found: "a man holding a baby in his arms" by Tamara Govedarovic (query: "naming jewish baby")
+  Uploading to Cloudinary...
+  Done! (Tamara Govedarovic - Unsplash)
+
+--- Progress: 119 success, 1 failed, 106 remaining | Rate limit: 30 ---
+
+
+[121/226] "Naming a Jewish Baby" (naming-a-jewish-baby-guide-to-tradition-and-meaning)
+  Found: "A baby is being fed a glass of wine" by Julia Michelle (query: "naming jewish baby")
+  Uploading to Cloudinary...
+  Done! (Julia Michelle - Unsplash)
+
+[122/226] "Navigating Interfaith Relationships" (navigating-interfaith-relationships)
+  Found: "A group of people sitting on the floor in a room" by Rendy Novantino (query: "navigating interfaith relationships")
+  Uploading to Cloudinary...
+  Done! (Rendy Novantino - Unsplash)
+
+[123/226] "Neilah: Closing the Gates" (neilah-closing-the-gates)
+  Found: "text" by Brett Jordan (query: "neilah closing jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[124/226] "Oil vs. Candles: Which is Better for Chanukah?" (oil-vs-candles-which-is-better-for-chanukah)
+  Found: "A row of lit candles sitting next to each other" by Eliezer Muller (query: "oil candles jewish")
+  Uploading to Cloudinary...
+  Done! (Eliezer Muller - Unsplash)
+
+[125/226] "Opening Bottles and Cans on Shabbat" (opening-bottles-and-cans-on-shabbat)
+  Found: "person squeeze slice of lime on scallop shell" by Ed Zavala (query: "opening bottles cans shabbat")
+  Uploading to Cloudinary...
+  Done! (Ed Zavala - Unsplash)
+
+[126/226] "Overview of the Jewish Holiday Cycle" (overview-of-the-jewish-holiday-cycle-2)
+  Found: "woman in black jacket riding on bicycle near brick wall during daytime" by Cristina Gottardi (query: "overview jewish holiday cycle")
+  Uploading to Cloudinary...
+  Done! (Cristina Gottardi - Unsplash)
+
+[127/226] "Pareve: The Neutral Category" (pareve-the-neutral-category)
+  Found: "A close up of a block that says metaverse on it" by Markus Winkler (query: "pareve neutral category")
+  Uploading to Cloudinary...
+  Done! (Markus Winkler - Unsplash)
+
+[128/226] "Pas Yisrael: The Ten Days of Repentance" (pas-yisrael-the-ten-days-of-repentance)
+  Found: "A close up of an open book on a table" by Brett Jordan (query: "pas yisrael ten days")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[129/226] "People" (people)
+  Found: "an old building in the middle of a forest" by Gabriel Bach (query: "people jewish")
+  Uploading to Cloudinary...
+  Done! (Gabriel Bach - Unsplash)
+
+[130/226] "Pirsumei Nisa: Publicizing the Miracle" (pirsumei-nisa-publicizing-the-miracle)
+  Found: "white book page on brown marble table" by shraga kopstein (query: "pirsumei judaism")
+  Uploading to Cloudinary...
+  Done! (shraga kopstein - Unsplash)
+
+--- Progress: 129 success, 1 failed, 96 remaining | Rate limit: 17 ---
+
+
+[131/226] "Preparing for Shabbat" (preparing-for-shabbat)
+  Found: "Bakers preparing dough in a traditional bakery." by Wietse Jongsma (query: "preparing shabbat")
+  Uploading to Cloudinary...
+  Done! (Wietse Jongsma - Unsplash)
+
+[132/226] "Prophets" (prophets)
+  Found: "A shelf filled with various old books." by Brad (query: "prophets jewish")
+  Uploading to Cloudinary...
+  Done! (Brad - Unsplash)
+
+[133/226] "Reading the End and Beginning of the Torah" (reading-the-end-and-beginning-of-the-torah)
+  Found: "person reading open booked" by Rachid Oucharia (query: "reading end beginning torah")
+  Uploading to Cloudinary...
+  Done! (Rachid Oucharia - Unsplash)
+
+[134/226] "Refund and Returns Policy" (refund_returns)
+  Found: "a close up of a typewriter with a tax return sign on it" by Markus Winkler (query: "refund returns policy")
+  Uploading to Cloudinary...
+  Done! (Markus Winkler - Unsplash)
+
+[135/226] "Reliable vs. Unreliable Hechsherim" (reliable-vs-unreliable-hechsherim)
+  Found: "a close up of a book with a pink cover" by Levi Meir Clancy (query: "reliable unreliable jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[136/226] "Return" (return)
+  Found: "a man with a beard and a man with a hat" by Levi Meir Clancy (query: "return jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[137/226] "Rosh Hashanah Simanim: Symbolic Foods Guide" (rosh-hashanah-simanim-symbolic-foods-guide)
+  Found: "a close up of an open book on a table" by Brett Jordan (query: "rosh hashanah simanim symbolic")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[138/226] "Sects" (sects)
+  Found: "black text on white paper" by Lavi Perchik (query: "sects jewish")
+  Uploading to Cloudinary...
+  Done! (Lavi Perchik - Unsplash)
+
+[139/226] "Selichot: Ashkenazic vs. Sephardic Customs" (selichot-ashkenazic-vs-sephardic-customs)
+  Found: "a group of cars parked in a parking lot" by Ben Duke (query: "selichot ashkenazic sephardic customs")
+  Uploading to Cloudinary...
+  Done! (Ben Duke - Unsplash)
+
+[140/226] "Selling Chametz: How Does It Work?" (selling-chametz-how-does-it-work-2)
+  Found: "Close-up of open book with printed text." by Brett Jordan (query: "selling judaism")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+--- Progress: 139 success, 1 failed, 86 remaining | Rate limit: 4 ---
+
+
+[141/226] "Selling Chametz: How Does It Work?" (selling-chametz-how-does-it-work)
+
+----------------------------------------------------------
+  Batch complete: 139 succeeded this batch
+  Rate limit cooldown: waiting 59m 16s
+  Will resume at ~16:07:20
+----------------------------------------------------------
+
+Resuming at 16:07:20...
+  Found: "text" by Brett Jordan (query: "selling judaism")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[142/226] "Seudah Shlishit: The Third Meal" (seudah-shlishit-the-third-meal)
+  Found: "A table topped with plates of food on top of a table" by AJOY DAS (query: "seudah shlishit third meal")
+  Uploading to Cloudinary...
+  Done! (AJOY DAS - Unsplash)
+
+[143/226] "Shabbat and Non-Jews (Amira LeNochri)" (shabbat-and-non-jews-amira-lenochri)
+  Found: "A stack of books sitting on top of a table" by Haidan (query: "shabbat non-jews amira lenochri")
+  Uploading to Cloudinary...
+  Done! (Haidan - Unsplash)
+
+[144/226] "Shabbat as a Taste of the World to Come" (shabbat-as-a-taste-of-the-world-to-come)
+  Found: "a wooden table topped with plates of food" by Xiao daCunha (query: "shabbat taste world")
+  Uploading to Cloudinary...
+  Done! (Xiao daCunha - Unsplash)
+
+[145/226] "Shabbat Meals: Structure and Meaning" (shabbat-meals-structure-and-meaning)
+  Found: "white printer paper on brown wooden table" by Brett Jordan (query: "shabbat meals structure meaning")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[146/226] "Shabbat Timers: Can You Adjust Them?" (shabbat-timers-can-you-adjust-them)
+  Found: "black and white analog gauge" by Ralph Hutter (query: "shabbat timers adjust them")
+  Uploading to Cloudinary...
+  Done! (Ralph Hutter - Unsplash)
+
+[147/226] "shabbat-guide/" (shabbat-guide)
+  Found: "a close up of a book with a page in it" by Brett Jordan (query: "shabbat-guide jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[148/226] "Shalom Aleichem: Welcoming Angels" (shalom-aleichem-welcoming-angels)
+  Found: "white and yellow duck figurine" by Craig Bertram (query: "shalom aleichem welcoming angels")
+  Uploading to Cloudinary...
+  Done! (Craig Bertram - Unsplash)
+
+[149/226] "Shavuot and the Giving of the Torah" (shavuot-and-the-giving-of-the-torah)
+  Found: "man praying beside table" by Cak Fadli (query: "shavuot giving torah")
+  Uploading to Cloudinary...
+  Done! (Cak Fadli - Unsplash)
+
+[150/226] "Shofar Sounds: Tekiah" (shofar-sounds-tekiah)
+  Found: "a person wearing a black jacket" by ישראל ויסוצקי (query: "shofar judaism")
+  Uploading to Cloudinary...
+  Done! (ישראל ויסוצקי - Unsplash)
+
+--- Progress: 149 success, 1 failed, 76 remaining | Rate limit: 39 ---
+
+
+[151/226] "Shop" (shop)
+  Found: "a person wearing a hat" by Levi Meir Clancy (query: "shop jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[152/226] "Simchat Torah: Understanding the Hakafot" (simchat-torah-understanding-the-hakafot)
+  Found: "text" by Brett Jordan (query: "simchat torah understanding hakafot")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[153/226] "Some Popular Jewish Texs" (some-popular-jewish-texs)
+  Found: "man wearing black coat and hat" by Laura Siegal (query: "popular jewish jewish")
+  Uploading to Cloudinary...
+  Done! (Laura Siegal - Unsplash)
+
+[154/226] "Spain History of the Jews" (spain-history-of-the-jews)
+  Found: "book page" by Marta Baena Simino (query: "spain history jews")
+  Uploading to Cloudinary...
+  Done! (Marta Baena Simino - Unsplash)
+
+[155/226] "Start Here" (start-here)
+  Found: "pink Star Here text" by Gia Oris (query: "start here")
+  Uploading to Cloudinary...
+  Done! (Gia Oris - Unsplash)
+
+[156/226] "Structure of the Hebrew Bible (Tanach)" (structure-of-the-hebrew-bible-tanach)
+  Found: "a close up of a sign on a building" by Levi Meir Clancy (query: "structure hebrew jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[157/226] "Symbolic Foods of Rosh Hashanah" (symbolic-foods-of-rosh-hashanah)
+  Found: "a large plate of food on a table" by Md Shahin (query: "symbolic foods rosh hashanah")
+  Uploading to Cloudinary...
+  Done! (Md Shahin - Unsplash)
+
+[158/226] "Tashlich Ceremony" (tashlich-ceremony)
+  Found: "a man in a black suit and a man in a black hat" by ישראל ויסוצקי (query: "tashlich ceremony jewish")
+  Uploading to Cloudinary...
+  Done! (ישראל ויסוצקי - Unsplash)
+
+[159/226] "Tashlich: Where and When to Go" (tashlich-where-and-when-to-go)
+  Found: "text" by Brett Jordan (query: "jewish life spirituality")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[160/226] "Temple" (temple)
+  Found: "Stained glass windows feature jewish symbols and scenes." by Aleks Megen (query: "temple jewish")
+  Uploading to Cloudinary...
+  Done! (Aleks Megen - Unsplash)
+
+--- Progress: 159 success, 1 failed, 66 remaining | Rate limit: 25 ---
+
+
+[161/226] "Tevilat Kelim: The Mitzvah of Immersing Dishes" (tevilat-kelim-the-mitzvah-of-immersing-dishes)
+  Found: "a group of men standing around a pool of water" by Logan Gutierrez (query: "tevilat kelim mitzvah immersing")
+  Uploading to Cloudinary...
+  Done! (Logan Gutierrez - Unsplash)
+
+[162/226] "Tevilat Kelim: Which Utensils Need Dipping?" (tevilat-kelim-which-utensils-need-dipping)
+  Found: "a man with a long beard wearing a red hat" by Aharon Luria (query: "tevilat kelim jewish")
+  Uploading to Cloudinary...
+  Done! (Aharon Luria - Unsplash)
+
+[163/226] "The 10 Days of Repentance: What to Change" (the-10-days-of-repentance-what-to-change)
+  Found: "A close up of an open book on a table" by Brett Jordan (query: "days repentance change")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[164/226] "The 10 Plagues: Modern Lessons" (the-10-plagues-modern-lessons)
+  Found: "text" by Brett Jordan (query: "plagues modern lessons")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[165/226] "The 39 Melachot (Prohibited Labors)" (the-39-melachot-prohibited-labors)
+  Found: "stop sign clip art" by Jonathan Kemper (query: "melachot prohibited labors")
+  Uploading to Cloudinary...
+  Done! (Jonathan Kemper - Unsplash)
+
+[166/226] "The 4 Sons: Which One Are You?" (the-4-sons-which-one-are-you)
+  Found: "a group of three men standing next to each other" by Jopopz Tallorin (query: "sons one")
+  Uploading to Cloudinary...
+  Done! (Jopopz Tallorin - Unsplash)
+
+[167/226] "The 7 Species of Israel: Spiritual Meanings" (the-7-species-of-israel-spiritual-meanings-2)
+  Found: "Close-up of an open bible with text visible." by Brett Jordan (query: "species israel spiritual meanings")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[168/226] "The 7 Species of Israel: Spiritual Meanings" (the-7-species-of-israel-spiritual-meanings)
+  Found: "a wooden block spelling israel next to a bouquet of flowers" by Alex Shute (query: "species israel spiritual meanings")
+  Uploading to Cloudinary...
+  Done! (Alex Shute - Unsplash)
+
+[169/226] "The Creation Story and Shabbat" (the-creation-story-and-shabbat)
+  Found: "text" by Brett Jordan (query: "creation story shabbat")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[170/226] "The Energetic Nature of Shabbat" (the-energetic-nature-of-shabbat)
+  Found: "A wooden bench sitting on top of a lush green hillside" by Nereid Ndreu (query: "energetic nature shabbat")
+  Uploading to Cloudinary...
+  Done! (Nereid Ndreu - Unsplash)
+
+--- Progress: 169 success, 1 failed, 56 remaining | Rate limit: 15 ---
+
+
+[171/226] "The Fast of Esther: Fasting Before Purim" (the-fast-of-esther-fasting-before-purim)
+  Found: "an open book with a picture of a waterfall" by Tim Wildsmith (query: "fast esther fasting purim")
+  Uploading to Cloudinary...
+  Done! (Tim Wildsmith - Unsplash)
+
+[172/226] "The Five Inuyim (Afflictions)" (the-five-inuyim-afflictions)
+  Found: "A close up of a page of a book" by Brett Jordan (query: "five inuyim afflictions")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[173/226] "The Four Mitzvot of Purim" (the-four-mitzvot-of-purim)
+  Found: "close up photo of gray metal handheld tool" by Robert  Zunikoff (query: "four mitzvot purim")
+  Uploading to Cloudinary...
+  Done! (Robert  Zunikoff - Unsplash)
+
+[174/226] "The Four Species (Arba Minim)" (the-four-species-arba-minim)
+  Found: "text" by Brett Jordan (query: "four species jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[175/226] "The Guide to Waiting Between Meat and Milk" (the-guide-to-waiting-between-meat-and-milk)
+  Found: "a herd of cows standing on top of a lush green field" by Ries Bosch (query: "guide waiting meat milk")
+  Uploading to Cloudinary...
+  Done! (Ries Bosch - Unsplash)
+
+[176/226] "The Half-Shekel (Machatzit HaShekel) Custom" (the-half-shekel-machatzit-hashekel-custom)
+  Found: "A couple of holsters sitting on top of a wooden table" by seeetz (query: "half-shekel machatzit hashekel custom")
+  Uploading to Cloudinary...
+  Done! (seeetz - Unsplash)
+
+[177/226] "The life of Rashi" (the-life-of-rashi)
+  Found: "The word life painted in red on a textured wall." by John Cardamone (query: "life rashi")
+  Uploading to Cloudinary...
+  Done! (John Cardamone - Unsplash)
+
+[178/226] "The Nine Days Menu: Delicious Meat-Free Dinners" (the-nine-days-menu-delicious-meat-free-dinners)
+  Found: "text" by Brett Jordan (query: "nine judaism")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[179/226] "The Rules of the Dreidel Game" (the-rules-of-the-dreidel-game)
+
+----------------------------------------------------------
+  Batch complete: 177 succeeded this batch
+  Rate limit cooldown: waiting 59m 15s
+  Will resume at ~17:09:20
+----------------------------------------------------------
+
+Resuming at 17:09:20...
+  Found: "a close up of a blue and red dice" by Timothy Dykes (query: "rules dreidel game")
+  Uploading to Cloudinary...
+  Done! (Timothy Dykes - Unsplash)
+
+[180/226] "The Seder Plate Explained: Items and Meanings" (the-seder-plate-explained-items-and-meanings)
+  Found: "a white cloth with a gold star of david on it" by Joey Dean (query: "seder plate jewish")
+  Uploading to Cloudinary...
+  Done! (Joey Dean - Unsplash)
+
+--- Progress: 179 success, 1 failed, 46 remaining | Rate limit: 47 ---
+
+
+[181/226] "The Seeker’s Guide to Becoming Jewish" (how-to-convert-to-judaism)
+  Found: "text" by Brett Jordan (query: "seekers guide becoming jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[182/226] "The Shabbat Nap (Shlaf)" (the-shabbat-nap-shlaf)
+  Found: "white printer paper on white textile" by Sincerely Media (query: "shabbat nap shlaf")
+  Uploading to Cloudinary...
+  Done! (Sincerely Media - Unsplash)
+
+[183/226] "The Soul of Shabbat (Neshama Yetera)" (the-soul-of-shabbat-neshama-yetera)
+  Found: "a vase with a yellow rose in it" by Ava Sol (query: "soul shabbat neshama yetera")
+  Uploading to Cloudinary...
+  Done! (Ava Sol - Unsplash)
+
+[184/226] "The Three Weeks &amp; Nine Days: A Mourning Guide" (the-three-weeks-nine-days-a-mourning-guide)
+  Found: "Close-up of a sign with letters nw3" by Brett Jordan (query: "three weeks amp nine")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[185/226] "Tisha B'Av: What Are Kinnot?" (tisha-bav-what-are-kinnot)
+  Found: "a tall building with graffiti on the side of it" by Marjan Blan (query: "tisha b'av kinnot")
+  Uploading to Cloudinary...
+  Done! (Marjan Blan - Unsplash)
+
+[186/226] "Understanding Jewish Music and Art" (understanding-jewish-music-and-art-2)
+  Found: "man playing violin on street" by Emir Eğricesu (query: "understanding jewish music art")
+  Uploading to Cloudinary...
+  Done! (Emir Eğricesu - Unsplash)
+
+[187/226] "Understanding Jewish Music and Art" (understanding-jewish-music-and-art)
+  Found: "people sitting on bench painting" by Samuel Wesley Silva (query: "understanding jewish music art")
+  Uploading to Cloudinary...
+  Done! (Samuel Wesley Silva - Unsplash)
+
+[188/226] "Understanding Kosher Symbols: A Guide to Hechsherim" (understanding-kosher-symbols-a-guide-to-hechsherim)
+  Found: "a close up of many different types of letters" by Natalia Y. (query: "understanding kosher symbols guide")
+  Uploading to Cloudinary...
+  Done! (Natalia Y. - Unsplash)
+
+[189/226] "Understanding Purim" (understanding-purim)
+  Found: "a close up of an open bible book" by Brett Jordan (query: "understanding purim jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[190/226] "Ushpizin: Inviting the 7 Holy Guests" (ushpizin-inviting-the-7-holy-guests)
+  Found: "group of people taking photo" by AMISH THAKKAR (query: "ushpizin inviting holy guests")
+  Uploading to Cloudinary...
+  Done! (AMISH THAKKAR - Unsplash)
+
+--- Progress: 189 success, 1 failed, 36 remaining | Rate limit: 37 ---
+
+
+[191/226] "Using a Hot Water Urn on Shabbat" (using-a-hot-water-urn-on-shabbat)
+  Found: "woman filling cup front jar" by Matthew Poetker (query: "using hot water urn")
+  Uploading to Cloudinary...
+  Done! (Matthew Poetker - Unsplash)
+
+[192/226] "Viduy: Why We Confess in Plural" (viduy-why-we-confess-in-plural)
+  Found: "Close-up of a bible page with handwritten notes." by Brett Jordan (query: "viduy confess jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[193/226] "Waiting 6 Hours vs 3 Hours vs 1 Hour" (waiting-6-hours-vs-3-hours-vs-1-hour)
+  Found: "a clock on the wall of a hotel room" by Enis Yavuz (query: "waiting hours hours hour")
+  Uploading to Cloudinary...
+  Done! (Enis Yavuz - Unsplash)
+
+[194/226] "Walking Distance: The Techum Shabbat" (walking-distance-the-techum-shabbat)
+  Found: "man in black and red jacket and black pants holding black stick walking on brown sand" by أخٌ‌في‌الله (query: "walking distance techum shabbat")
+  Uploading to Cloudinary...
+  Done! (أخٌ‌في‌الله - Unsplash)
+
+[195/226] "Welcoming the Shabbat Queen" (welcoming-the-shabbat-queen)
+  Found: "black and white checked chess piece" by Omotayo Kofoworola (query: "welcoming shabbat queen")
+  Uploading to Cloudinary...
+  Done! (Omotayo Kofoworola - Unsplash)
+
+[196/226] "What Does It Mean to Be Jewish?" (what-does-it-mean-to-be-jewish)
+  Found: "a group of people holding signs in the street" by Levi Meir Clancy (query: "mean jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[197/226] "What Foods Are Kosher for Passover?" (what-foods-are-kosher-for-passover)
+  Found: "variety of cooked food" by Gor Davtyan (query: "foods kosher passover")
+  Uploading to Cloudinary...
+  Done! (Gor Davtyan - Unsplash)
+
+[198/226] "What Is a Synagogue?" (what-is-a-synagogue-2)
+  Found: "a row of wooden chairs sitting next to each other" by Francesco Alberti (query: "synagogue jewish")
+  Uploading to Cloudinary...
+  Done! (Francesco Alberti - Unsplash)
+
+[199/226] "What Is a Synagogue?" (what-is-a-synagogue)
+  Found: "birds flying in front of a building" by Vantage Point Photographers (query: "synagogue jewish")
+  Uploading to Cloudinary...
+  Done! (Vantage Point Photographers - Unsplash)
+
+[200/226] "What Is Allowed and Prohibited on Shabbat?" (what-is-allowed-and-prohibited-on-shabbat)
+  Found: "white and red no smoking sign" by Nareeta Martin (query: "allowed prohibited shabbat")
+  Uploading to Cloudinary...
+  Done! (Nareeta Martin - Unsplash)
+
+--- Progress: 199 success, 1 failed, 26 remaining | Rate limit: 27 ---
+
+
+[201/226] "What is Bishul Yisrael? Jewish Cooking Laws Explained" (what-is-bishul-yisrael-jewish-cooking-laws-explained)
+  Found: "woman in white and pink floral tank top cooking" by Menú Acapulco (query: "bishul yisrael jewish cooking")
+  Uploading to Cloudinary...
+  Done! (Menú Acapulco - Unsplash)
+
+[202/226] "What Is Chanukah?" (what-is-chanukah)
+  Found: "a group of lit candles sitting next to each other" by Robert  Zunikoff (query: "chanukah jewish")
+  Uploading to Cloudinary...
+  Done! (Robert  Zunikoff - Unsplash)
+
+[203/226] "What is Lag BaOmer and Why Do We Light Bonfires?" (what-is-lag-baomer-and-why-do-we-light-bonfires)
+  Found: "burning wood at night" by Esther Vexler (query: "lag baomer light bonfires")
+  Uploading to Cloudinary...
+  Done! (Esther Vexler - Unsplash)
+
+[204/226] "What Is Lashon Hara and How to Avoid It" (what-is-lashon-hara-and-how-to-avoid-it)
+  Found: "Close-up of text from a book on an open book." by Brett Jordan (query: "lashon hara avoid")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[205/226] "What Is Purim?" (what-is-purim)
+  Found: "brown bread on brown tray" by Brian Nelson (query: "purim jewish")
+  Uploading to Cloudinary...
+  Done! (Brian Nelson - Unsplash)
+
+[206/226] "What Is Rosh Hashanah?" (what-is-rosh-hashanah)
+  Found: "a person holding a bunch of apples" by Olga Drach (query: "rosh hashanah")
+  Uploading to Cloudinary...
+  Done! (Olga Drach - Unsplash)
+
+[207/226] "What Is Shabbat and Why Do Jews Keep It?" (what-is-shabbat-and-why-do-jews-keep-it-2)
+  Found: "a close up of a page of a book" by Brett Jordan (query: "shabbat jews keep")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[208/226] "What Is Shabbat?" (what-is-shabbat)
+  Found: "a bunch of cupcakes that are on a shelf" by mendels photography (query: "shabbat jewish")
+  Uploading to Cloudinary...
+  Done! (mendels photography - Unsplash)
+
+[209/226] "What Is Shavuot?" (what-is-shavuot)
+  Found: "a black and white hat sitting on top of pine cones" by Marek Studzinski (query: "shavuot jewish")
+  Uploading to Cloudinary...
+  Done! (Marek Studzinski - Unsplash)
+
+[210/226] "What Is Shemini Atzeret?" (what-is-shemini-atzeret)
+  Found: "text" by Brett Jordan (query: "jewish life spirituality")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+--- Progress: 209 success, 1 failed, 16 remaining | Rate limit: 15 ---
+
+
+[211/226] "What Is Tefillah (Prayer)?" (what-is-tefillah-prayer)
+  Found: "a person with a head covering is smoking a cigarette" by Michael Starkie (query: "tefillah prayer")
+  Uploading to Cloudinary...
+  Done! (Michael Starkie - Unsplash)
+
+[212/226] "What Is the Mikvah?" (what-is-the-mikvah)
+  Found: "a close up of an open book with the word hacim on it" by Brett Jordan (query: "mikvah jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[213/226] "What Is the Talmud?" (what-is-the-talmud)
+  Found: "Text from a book page with names and genealogy." by Brett Jordan (query: "talmud jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[214/226] "What Is the Torah?" (what-is-the-torah)
+  Found: "black and white wall with white printer paper" by Levi Meir Clancy (query: "torah jewish")
+  Uploading to Cloudinary...
+  Done! (Levi Meir Clancy - Unsplash)
+
+[215/226] "What Is Yom Kippur?" (what-is-yom-kippur)
+  Found: "a highway with trees on the side" by ronen abudi (query: "yom kippur")
+  Uploading to Cloudinary...
+  Done! (ronen abudi - Unsplash)
+
+[216/226] "What Is Yom Kippur?" (what-is-yom-kippur-2)
+  Found: "a white hat with a gold star of david on it" by Joey Dean (query: "yom kippur")
+  Uploading to Cloudinary...
+  Done! (Joey Dean - Unsplash)
+
+[217/226] "When and How to Hear the Megillah" (when-and-how-to-hear-the-megillah)
+  Found: "text" by Brett Jordan (query: "hear megillah jewish")
+  Uploading to Cloudinary...
+  Done! (Brett Jordan - Unsplash)
+
+[218/226] "Where to Begin Your Jewish Journey" (where-to-begin-your-jewish-journey)
+  Found: "a remote control sitting on top of a wooden tray" by Jonathan Bottoms (query: "begin jewish journey")
+  Uploading to Cloudinary...
+  Done! (Jonathan Bottoms - Unsplash)
+
+[219/226] "Where to Begin Your Jewish Journey" (where-to-begin-your-jewish-journey-2)
+  Found: "white printer paper on pink textile" by Sincerely Media (query: "begin jewish journey")
+  Uploading to Cloudinary...
+  Done! (Sincerely Media - Unsplash)
+
+[220/226] "Who Is a Jew According to Jewish Law?" (who-is-a-jew-according-to-jewish-law)
+  Found: "a group of people holding signs in a park" by Nikolas Gannon (query: "jew according jewish law")
+  Uploading to Cloudinary...
+  Done! (Nikolas Gannon - Unsplash)
+
+--- Progress: 219 success, 1 failed, 6 remaining | Rate limit: 6 ---
+
+
+[221/226] "Who Was Ruth? The First Convert" (who-was-ruth-the-first-convert)
+  Found: "white book page on white textile" by Sincerely Media (query: "ruth first convert")
+  Uploading to Cloudinary...
+  Done! (Sincerely Media - Unsplash)
+
+[222/226] "Why Do Jews Keep Shabbat?" (why-do-jews-keep-shabbat)
+
+----------------------------------------------------------
+  Batch complete: 220 succeeded this batch
+  Rate limit cooldown: waiting 59m 0s
+  Will resume at ~18:11:20
+----------------------------------------------------------
+
+Resuming at 18:11:19...
+  Found: "a book opened on top of a bed next to a pair of scissors" by Rhodi Lopez (query: "jews keep shabbat")
+  Uploading to Cloudinary...
+  Done! (Rhodi Lopez - Unsplash)
+
+[223/226] "Why Do We Cover the Challah?" (why-do-we-cover-the-challah)
+  Found: "brown bread with chocolate on top" by Svetlana B (query: "cover challah")
+  Uploading to Cloudinary...
+  Done! (Svetlana B - Unsplash)
+
+[224/226] "Why Do We Dip Challah in Salt?" (why-do-we-dip-challah-in-salt)
+  Found: "person holding brown and white doughnut" by netograph .capture (query: "dip challah salt")
+  Uploading to Cloudinary...
+  Done! (netograph .capture - Unsplash)
+
+[225/226] "Why Do We Eat Dairy on Shavuot?" (why-do-we-eat-dairy-on-shavuot)
+  Found: "a sign on a wall" by Kirby Love (query: "eat dairy jewish")
+  Uploading to Cloudinary...
+  Done! (Kirby Love - Unsplash)
+
+[226/226] "Zemirot: Traditional Shabbat Songs" (zemirot-traditional-shabbat-songs)
+  Found: "An outdoor orchestra performs with audience members watching." by Nadav Dafni (query: "zemirot traditional shabbat songs")
+  Uploading to Cloudinary...
+  Done! (Nadav Dafni - Unsplash)
+
+==========================================================
+  COMPLETE
+==========================================================
+  Succeeded: 225
+  Failed: 1
+  Total unique photos used: 225
+  Previously completed: 0
+
+  1 posts could not get unique images.
+  These are saved in the progress file for manual review.
+  1 posts still need images (may need --reset and re-run).

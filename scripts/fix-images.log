@@ -1,0 +1,613 @@
+
+==========================================================
+  Image Fix Script — Replacing irrelevant images
+==========================================================
+
+Total fixes needed: 108
+Already completed: 0
+Pending: 108
+
+[1/108] "guide-to-sukkot"
+  Query: "sukkah booth jewish holiday" (was: got skier on mountain)
+(node:2554) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  No suitable photo found (0 results, all used)
+[2/108] "how-to-prepare-for-the-fast"
+  Query: "fasting prayer preparation" (was: got motorcycle (fast=speed))
+  Found: "a person lying on a bed" by Syed Aoun Abbas
+  Uploading to Cloudinary...
+  Done! (rate limit: 48)
+[3/108] "selichot-ashkenazic-vs-sephardic-customs"
+  Query: "synagogue prayer night service" (was: got parking lot)
+  Found: "a group of people standing in a room with their hands up" by Erika Giraud
+  Uploading to Cloudinary...
+  Done! (rate limit: 47)
+[4/108] "welcoming-the-shabbat-queen"
+  Query: "shabbat candles table setting warm" (was: got chess piece (queen))
+  Found: "Two candles flank a vase of dried flowers." by mdreza jalali
+  Uploading to Cloudinary...
+  Done! (rate limit: 46)
+[5/108] "the-four-mitzvot-of-purim"
+  Query: "purim celebration gifts reading" (was: got metal tool)
+  Found: "a person sitting on a couch reading a book" by Isfak Himu
+  Uploading to Cloudinary...
+  Done! (rate limit: 45)
+[6/108] "pareve-the-neutral-category"
+  Query: "vegetables fruits eggs neutral food" (was: got metaverse block)
+  Found: "eggs in tray beside carrots" by Louis Hansel
+  Uploading to Cloudinary...
+  Done! (rate limit: 44)
+[7/108] "building-a-sukkah-halachic-requirements"
+  Query: "sukkah outdoor booth construction" (was: got mosque)
+  Found: "Man in uniform sits by guardhouse with sign." by Illia Horokhovsky
+  Uploading to Cloudinary...
+  Done! (rate limit: 43)
+[8/108] "what-is-tefillah-prayer"
+  Query: "jewish man praying synagogue tallit" (was: got person smoking)
+  No suitable photo found (0 results, all used)
+[9/108] "blessing-children-on-friday-night"
+  Query: "father blessing children shabbat table" (was: got church)
+  No suitable photo found (0 results, all used)
+[10/108] "kosher-symbols-guide"
+  Query: "kosher certification food label package" (was: got Egyptian hieroglyphs)
+  Found: "a bar of chocolate sitting on top of a table" by NEXT Distro
+  Uploading to Cloudinary...
+  Done! (rate limit: 40)
+
+--- Progress: 7 fixed, 3 failed, 98 remaining ---
+
+[11/108] "the-half-shekel-machatzit-hashekel-custom"
+  Query: "ancient silver coins jewish" (was: got holsters)
+  Found: "silver round coins on brown textile" by Kanchanara
+  Uploading to Cloudinary...
+  Done! (rate limit: 39)
+[12/108] "shalom-aleichem-welcoming-angels"
+  Query: "shabbat evening family peaceful candle" (was: got duck figurine)
+  Found: "woman in white and pink floral long sleeve shirt sitting beside woman in white and pink" by Christi Marcheschi
+  Uploading to Cloudinary...
+  Done! (rate limit: 38)
+[13/108] "mishloach-manot-10-creative-theme-ideas"
+  Query: "gift basket purim treats colorful" (was: got person on seashore)
+  Found: "a basket of food" by Wen Zhu
+  Uploading to Cloudinary...
+  Done! (rate limit: 37)
+[14/108] "mishloach-manot-10-creative-theme-ideas-2"
+  Query: "purim gift basket food hamper" (was: got village hills)
+  No suitable photo found (0 results, all used)
+[15/108] "overview-of-the-jewish-holiday-cycle-2"
+  Query: "jewish calendar holidays menorah shofar" (was: got bicycle)
+  No suitable photo found (0 results, all used)
+[16/108] "chol-hamoed-what-work-is-permitted"
+  Query: "family outing park holiday trip" (was: got road work sign)
+  Found: "People relaxing on grass in a park" by Lena Bochanova
+  Uploading to Cloudinary...
+  Done! (rate limit: 34)
+[17/108] "the-three-weeks-nine-days-a-mourning-guide"
+  Query: "jerusalem western wall mourning" (was: got nw3 sign)
+  Found: "brown concrete building near green grass field during daytime" by Florencia guerra
+  Uploading to Cloudinary...
+  Done! (rate limit: 33)
+[18/108] "tisha-bav-what-are-kinnot"
+  Query: "jerusalem temple ruins mourning" (was: got graffiti building)
+  Found: "a group of people walking around a stone building" by Jonny Gios
+  Uploading to Cloudinary...
+  Done! (rate limit: 32)
+[19/108] "what-is-purim"
+  Query: "purim costume mask celebration festive" (was: got bread on tray)
+  No suitable photo found (0 results, all used)
+[20/108] "cleaning-your-car-for-passover-a-checklist"
+  Query: "car interior cleaning vacuum" (was: got glass pitcher)
+  Found: "Man cleaning car dashboard with brush" by Luay Barani
+  Uploading to Cloudinary...
+  Done! (rate limit: 30)
+
+--- Progress: 14 fixed, 6 failed, 88 remaining ---
+
+[21/108] "borer-the-prohibition-of-selecting"
+  Query: "sorting separating food ingredients" (was: got no-smoking sign)
+  Found: "a woman standing in front of a table filled with bowls of food" by Izzuddin Azzam
+  Uploading to Cloudinary...
+  Done! (rate limit: 29)
+[22/108] "blowing-the-shofar"
+  Query: "shofar ram horn instrument" (was: got man in turban)
+  Found: "brown wooden bucket with white background" by Олег Мороз
+  Uploading to Cloudinary...
+  Done! (rate limit: 28)
+[23/108] "electricity-and-technology-on-shabbat"
+  Query: "light switch technology electronics" (was: got electrocution danger sign)
+  Found: "black and red computer keyboard" by Agent J
+  Uploading to Cloudinary...
+  Done! (rate limit: 27)
+[24/108] "glatt-kosher-what-does-it-mean"
+  Query: "kosher meat butcher shop" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[25/108] "how-to-keep-shabbat-a-beginners-guide"
+  Query: "shabbat candles challah wine table" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[26/108] "how-to-make-shabbat-early-in-summer"
+  Query: "sunset summer golden hour evening" (was: got generic text)
+  Found: "Sunset over a calm ocean with city skyline." by Teodor Ted
+  Uploading to Cloudinary...
+  Done! (rate limit: 24)
+[27/108] "how-to-start-keeping-kosher"
+  Query: "kosher kitchen organized food" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[28/108] "hamantaschen-vs-oznay-haman-history-recipe"
+  Query: "hamantaschen triangle cookie pastry" (was: got generic book text)
+  Found: "baked pastries" by sheri silver
+  Uploading to Cloudinary...
+  Done! (rate limit: 22)
+[29/108] "hamantaschen-vs-oznay-haman-history-recipe-2"
+  Query: "hamantaschen baking jewish pastry purim" (was: got generic book text)
+  Found: "a pile of chocolate" by Edo
+  Uploading to Cloudinary...
+  Done! (rate limit: 21)
+[30/108] "havdalah-ending-shabbat"
+  Query: "havdalah braided candle spices wine" (was: got generic book text)
+  Found: "a person holding a large piece of food" by Maximilian Müller
+  Uploading to Cloudinary...
+  Done! (rate limit: 20)
+
+--- Progress: 21 fixed, 9 failed, 78 remaining ---
+
+[31/108] "simchat-torah-understanding-the-hakafot"
+  Query: "torah scroll dancing celebration joyful" (was: got generic text)
+  Found: "grayscale photo of people in a concert" by Kazuo ota
+  Uploading to Cloudinary...
+  Done! (rate limit: 19)
+[32/108] "the-10-plagues-modern-lessons"
+  Query: "passover seder haggadah egypt" (was: got generic text)
+  Found: "Close-up of an open book with text in columns." by Brett Jordan
+  Uploading to Cloudinary...
+  Done! (rate limit: 18)
+[33/108] "the-creation-story-and-shabbat"
+  Query: "nature creation earth sky beautiful" (was: got generic text)
+  Found: "brown field under blue sky and white clouds during daytime" by Aryan Sahani
+  Uploading to Cloudinary...
+  Done! (rate limit: 17)
+[34/108] "the-four-species-arba-minim"
+  Query: "lulav etrog palm branch sukkot" (was: got generic text)
+  Found: "a plant with leaves" by Doan Anh
+  Uploading to Cloudinary...
+  Done! (rate limit: 16)
+[35/108] "the-nine-days-menu-delicious-meat-free-dinners"
+  Query: "vegetarian meal dairy pasta salad" (was: got generic text)
+  Found: "a white plate topped with pasta and veggies" by Alexa Tee
+  Uploading to Cloudinary...
+  Done! (rate limit: 15)
+[36/108] "what-is-shemini-atzeret"
+  Query: "synagogue jewish holiday autumn prayer" (was: got generic text)
+  Found: "brown and black rope on book page" by James Coleman
+  Uploading to Cloudinary...
+  Done! (rate limit: 14)
+[37/108] "when-and-how-to-hear-the-megillah"
+  Query: "megillah scroll purim reading synagogue" (was: got generic text)
+  Found: "a wooden door in a room with bookshelves" by Mustafa Mahmoud
+  Uploading to Cloudinary...
+  Done! (rate limit: 13)
+[38/108] "neilah-closing-the-gates"
+  Query: "synagogue gates closing sunset prayer" (was: got generic text)
+  Found: "Light blue garage door with blue lettering." by mdreza jalali
+  Uploading to Cloudinary...
+  Done! (rate limit: 12)
+[39/108] "muktzeh-what-you-cant-touch-on-shabbat"
+  Query: "shabbat objects items table" (was: got generic book text)
+  Found: "silver vase" by Mateus Campos Felipe
+  Uploading to Cloudinary...
+  Done! (rate limit: 11)
+[40/108] "selling-chametz-how-does-it-work"
+  Query: "bread chametz passover cleaning removal" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[41/108] "selling-chametz-how-does-it-work-2"
+  Query: "chametz bread wheat passover prohibition" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[42/108] "shabbat-meals-structure-and-meaning"
+  Query: "shabbat dinner table family meal" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[43/108] "how-to-convert-to-judaism"
+  Query: "conversion study jewish learning mikvah" (was: got generic text)
+  Found: "text" by Brett Jordan
+  Uploading to Cloudinary...
+  Done! (rate limit: 7)
+[44/108] "pas-yisrael-the-ten-days-of-repentance"
+  Query: "bread bakery fresh baked challah" (was: got generic book)
+  Found: "close up photo of bread" by shraga kopstein
+  Uploading to Cloudinary...
+  Done! (rate limit: 6)
+
+----------------------------------------------------------
+  Batch done: 32 fixed. Cooling down 59m 47s
+  Resume at ~01:26:10
+----------------------------------------------------------
+[45/108] "pirsumei-nisa-publicizing-the-miracle"
+  Query: "chanukah menorah window public display" (was: got generic book page)
+Fatal: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async searchUnsplash (/Users/danlevy/howtobjewish/scripts/fix-images.js:59:15)
+    at async main (/Users/danlevy/howtobjewish/scripts/fix-images.js:180:37) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.unsplash.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.unsplash.com'
+  }
+}
+
+==========================================================
+  Image Fix Script — Replacing irrelevant images
+==========================================================
+
+Total fixes needed: 108
+Already completed: 32
+Pending: 76
+
+[1/76] "guide-to-sukkot"
+  Query: "sukkah booth jewish holiday" (was: got skier on mountain)
+(node:38304) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  No suitable photo found (0 results, all used)
+[2/76] "what-is-tefillah-prayer"
+  Query: "jewish man praying synagogue tallit" (was: got person smoking)
+  No suitable photo found (0 results, all used)
+[3/76] "blessing-children-on-friday-night"
+  Query: "father blessing children shabbat table" (was: got church)
+  No suitable photo found (0 results, all used)
+[4/76] "mishloach-manot-10-creative-theme-ideas-2"
+  Query: "purim gift basket food hamper" (was: got village hills)
+  No suitable photo found (0 results, all used)
+[5/76] "overview-of-the-jewish-holiday-cycle-2"
+  Query: "jewish calendar holidays menorah shofar" (was: got bicycle)
+  No suitable photo found (0 results, all used)
+[6/76] "what-is-purim"
+  Query: "purim costume mask celebration festive" (was: got bread on tray)
+  No suitable photo found (0 results, all used)
+[7/76] "glatt-kosher-what-does-it-mean"
+  Query: "kosher meat butcher shop" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[8/76] "how-to-keep-shabbat-a-beginners-guide"
+  Query: "shabbat candles challah wine table" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[9/76] "how-to-start-keeping-kosher"
+  Query: "kosher kitchen organized food" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[10/76] "selling-chametz-how-does-it-work"
+  Query: "bread chametz passover cleaning removal" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[11/76] "selling-chametz-how-does-it-work-2"
+  Query: "chametz bread wheat passover prohibition" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[12/76] "shabbat-meals-structure-and-meaning"
+  Query: "shabbat dinner table family meal" (was: got generic text)
+  No suitable photo found (0 results, all used)
+[13/76] "pirsumei-nisa-publicizing-the-miracle"
+  Query: "chanukah menorah window public display" (was: got generic book page)
+  Found: "A group of lit candles sitting on top of a table" by Eliezer Muller
+  Uploading to Cloudinary...
+  Cloudinary error: undefined
+  Upload failed
+[14/76] "rosh-hashanah-simanim-symbolic-foods-guide"
+  Query: "apple honey pomegranate rosh hashanah" (was: got generic book text)
+  Network error (attempt 1/3): fetch failed
+  Network error (attempt 2/3): fetch failed
+  Found: "brown wooden spoon on green round fruit" by Igal Ness
+  Uploading to Cloudinary...
+  Done! (rate limit: 48)
+[15/76] "kol-nidrei-and-neilah-explained"
+  Query: "yom kippur synagogue prayer white" (was: got book about noah)
+  No suitable photo found (0 results, all used)
+[16/76] "counting-the-omer-a-49-day-spiritual-journey"
+  Query: "wheat field golden counting harvest" (was: got generic book)
+  Found: "a field of wheat" by Yusuf Onuk
+  Uploading to Cloudinary...
+  Done! (rate limit: 46)
+[17/76] "matanot-levyonim-the-mitzvah-of-giving"
+  Query: "charity giving tzedakah gift" (was: got generic book)
+  Found: "person holding red and white box" by Ben White
+  Uploading to Cloudinary...
+  Done! (rate limit: 45)
+[18/76] "matanot-levyonim-the-mitzvah-of-giving-2"
+  Query: "generosity helping poor giving hands" (was: got generic books)
+  Found: "man in purple shirt and gray pants sitting on floor" by Ashwini Chaudhary(Monty)
+  Uploading to Cloudinary...
+  Done! (rate limit: 44)
+[19/76] "how-to-start-keeping-kosher-a-beginners-guide-2"
+  Query: "kosher food kitchen organized labels" (was: got generic book)
+  Found: "2 clear glass jars on white shelf" by Tamara Malaniy
+  Uploading to Cloudinary...
+  Done! (rate limit: 43)
+[20/76] "the-five-inuyim-afflictions"
+  Query: "yom kippur fasting prayer synagogue" (was: got generic book)
+  No suitable photo found (0 results, all used)
+[21/76] "what-is-lashon-hara-and-how-to-avoid-it"
+  Query: "silence speech kindness words" (was: got generic book text)
+  Found: "text" by Belinda Fewings
+  Uploading to Cloudinary...
+  Done! (rate limit: 41)
+[22/76] "who-was-ruth-the-first-convert"
+  Query: "wheat field harvest woman gleaning" (was: got generic book page)
+  Found: "a person in a garment in a field" by Oleksandr Skochko
+  Uploading to Cloudinary...
+  Done! (rate limit: 40)
+[23/76] "jewish-approach-to-work-and-rest"
+  Query: "rest relaxation nature peaceful" (was: got generic book text)
+  Found: "a house sits on the edge of a lake" by Abdullah Fırat
+  Uploading to Cloudinary...
+  Done! (rate limit: 39)
+[24/76] "jewish-approach-to-work-and-rest-guide"
+  Query: "balance work life peaceful garden" (was: got generic book)
+  Found: "Person in traditional japanese clothing in a garden." by PJH
+  Uploading to Cloudinary...
+  Cloudinary error: undefined
+  Upload failed
+[25/76] "understanding-purim"
+  Query: "purim celebration costume mask festive" (was: got generic bible)
+  Network error (attempt 1/3): fetch failed
+  Network error (attempt 2/3): fetch failed
+  Network error (attempt 3/3): fetch failed
+  No suitable photo found (0 results, all used)
+[26/76] "bishul-yisrael-in-restaurants"
+  Query: "chef cooking restaurant kitchen professional" (was: got generic text)
+  Network error (attempt 1/3): fetch failed
+  Found: "Chef working in a commercial kitchen at night." by Uppu Vamsi
+  Uploading to Cloudinary...
+  Done! (rate limit: 49)
+[27/76] "the-shabbat-nap-shlaf"
+  Query: "afternoon nap rest sleeping peaceful" (was: got generic paper)
+  Found: "Orange cat sleeping on a wooden chair." by Callum
+  Uploading to Cloudinary...
+  Done! (rate limit: 48)
+[28/76] "tashlich-where-and-when-to-go"
+  Query: "river water nature breadcrumbs throwing" (was: got generic text)
+  Found: "human hand in body of water during daytime" by Nate Neelson
+  Uploading to Cloudinary...
+  Done! (rate limit: 47)
+[29/76] "what-is-the-mikvah"
+  Query: "water pool ritual immersion blue" (was: got generic book)
+  No suitable photo found (0 results, all used)
+[30/76] "what-is-the-torah"
+  Query: "torah scroll open synagogue holy" (was: got generic wall paper)
+  Found: "text" by Diana Polekhina
+  Uploading to Cloudinary...
+  Done! (rate limit: 45)
+
+--- Progress: 12 fixed, 18 failed, 46 remaining ---
+
+[31/76] "what-is-yom-kippur"
+  Query: "yom kippur white synagogue prayer fasting" (was: got highway with trees)
+  No suitable photo found (0 results, all used)
+[32/76] "why-do-jews-keep-shabbat"
+  Query: "shabbat family dinner candles challah" (was: got book with scissors)
+  Found: "baked breads in basket" by Abigail Lepaopao
+  Uploading to Cloudinary...
+  Done! (rate limit: 43)
+[33/76] "why-do-we-eat-dairy-on-shavuot"
+  Query: "cheesecake dairy milk products delicious" (was: got sign on wall)
+  Found: "a blue plate topped with slices of cheesecake" by Robin Sharma
+  Uploading to Cloudinary...
+  Done! (rate limit: 42)
+[34/76] "kapparot-chicken-vs-money"
+  Query: "white chicken rooster money coins" (was: got generic opened book)
+  Found: "Rooster with fluffy white feathers and red comb." by Erwin Bosman
+  Uploading to Cloudinary...
+  Done! (rate limit: 41)
+[35/76] "the-seder-plate-explained-items-and-meanings"
+  Query: "passover seder plate food items" (was: got star of david cloth)
+  Found: "food photography of partition tray with bread and dips" by John Matychuk
+  Uploading to Cloudinary...
+  Done! (rate limit: 40)
+[36/76] "mevushal-wine-why-boil-it"
+  Query: "wine bottle glass red grape" (was: got trophy)
+  Found: "Loxton cabernet sauvignon" by Mae Mu
+  Uploading to Cloudinary...
+  Done! (rate limit: 39)
+[37/76] "building-a-jewish-home"
+  Query: "warm cozy home family interior" (was: got clock tower)
+  Found: "a living room filled with furniture and a fire place" by Clay Banks
+  Uploading to Cloudinary...
+  Done! (rate limit: 38)
+[38/76] "building-a-jewish-home-2"
+  Query: "family home doorway mezuzah entrance" (was: got classical columns)
+  Network error (attempt 1/3): fetch failed
+  No suitable photo found (0 results, all used)
+[39/76] "building-a-kosher-sukkah"
+  Query: "sukkah outdoor booth decorations" (was: got building with clock)
+  No suitable photo found (0 results, all used)
+[40/76] "chalav-yisrael-vs-chalav-stam"
+  Query: "milk glass dairy fresh pour" (was: got rock with writing)
+  Found: "clear drinking glass with yellow liquid" by Anita Jankovic
+  Uploading to Cloudinary...
+  Done! (rate limit: 35)
+
+--- Progress: 19 fixed, 21 failed, 36 remaining ---
+
+[41/76] "creating-a-peaceful-shabbat-atmosphere"
+  Query: "candles peaceful warm home relaxing" (was: got random man)
+  Found: "a close up of a factory" by Rob Wicks
+  Uploading to Cloudinary...
+  Done! (rate limit: 34)
+[42/76] "dancing-with-the-torah"
+  Query: "simchat torah dancing joyful crowd" (was: got gold statue)
+  Found: "A crowd of people standing around each other" by Joshua Quaye
+  Uploading to Cloudinary...
+  Done! (rate limit: 33)
+[43/76] "decorating-with-flowers-the-shavuot-custom"
+  Query: "flower arrangement synagogue decorating beautiful" (was: got car with flowers)
+  Found: "a chandelier hanging from the ceiling of a church" by Stanislav Vdovin
+  Uploading to Cloudinary...
+  Done! (rate limit: 32)
+[44/76] "eshet-chayil-honoring-jewish-women"
+  Query: "jewish woman mother family shabbat" (was: got plaques on wall)
+  Found: "smiling woman in white dress shirt holding bouquet of flowers" by Kuzzat Altay
+  Uploading to Cloudinary...
+  Done! (rate limit: 31)
+
+----------------------------------------------------------
+  Batch done: 23 fixed. Cooling down 9m 58s
+  Resume at ~02:41:57
+----------------------------------------------------------
+[45/76] "how-to-kasher-your-kitchen-a-step-by-step-guide"
+  Query: "kitchen stove oven boiling water" (was: got store front)
+  Found: "white kettle on gas stove" by Derek Lee
+  Uploading to Cloudinary...
+  Done! (rate limit: 30)
+[46/76] "how-to-kasher-your-oven-for-passover"
+  Query: "oven kitchen cleaning passover kashering" (was: got star on branch)
+  Found: "woman in white long sleeve shirt and black and white hijab standing in front of stainless" by Tyson
+  Uploading to Cloudinary...
+  Done! (rate limit: 29)
+[47/76] "how-to-kasher-your-oven-for-passover-2"
+  Query: "kitchen oven clean preparation" (was: got generic book)
+  Found: "Modern kitchen with black countertops and stainless steel appliances." by Dominik
+  Uploading to Cloudinary...
+  Done! (rate limit: 28)
+[48/76] "how-to-prepare-for-passover"
+  Query: "passover cleaning preparation home kitchen" (was: got paper on table)
+  Found: "a woman washing dishes in a kitchen sink" by Documerica
+  Uploading to Cloudinary...
+  Done! (rate limit: 27)
+[49/76] "how-to-put-on-tefillin"
+  Query: "tefillin arm wrapping morning prayer" (was: got person holding book)
+  No suitable photo found (0 results, all used)
+[50/76] "spain-history-of-the-jews"
+  Query: "spain alhambra sephardic jewish architecture" (was: got generic book page)
+  Found: "A building with a large archway and a clock on the wall" by Hongbin
+  Uploading to Cloudinary...
+  Done! (rate limit: 25)
+
+--- Progress: 28 fixed, 22 failed, 26 remaining ---
+
+[51/76] "the-life-of-rashi"
+  Query: "medieval scholar manuscript writing ancient" (was: got 'life' painted on wall)
+  Found: "Man in historical attire writing at a desk." by The Cleveland Museum of Art
+  Uploading to Cloudinary...
+  Done! (rate limit: 24)
+[52/76] "the-fast-of-esther-fasting-before-purim"
+  Query: "fasting prayer woman spiritual" (was: got book with waterfall)
+  Found: "Woman in yellow sari participates in a ritual with offerings." by Abhishek Rai
+  Uploading to Cloudinary...
+  Done! (rate limit: 23)
+[53/76] "the-39-melachot-prohibited-labors"
+  Query: "handcraft work weaving building creative" (was: got stop sign clip art)
+  Found: "Modern building with abstract sculpture and clear sky" by Declan Sun
+  Uploading to Cloudinary...
+  Done! (rate limit: 22)
+[54/76] "what-is-shabbat"
+  Query: "shabbat candles wine challah table" (was: got cupcakes on shelf)
+  No suitable photo found (0 results, all used)
+[55/76] "what-is-shavuot"
+  Query: "shavuot torah mount sinai giving" (was: got hat on pine cones)
+  Found: "a group of people sitting on a rock ledge" by Artem Labunsky
+  Uploading to Cloudinary...
+  Done! (rate limit: 20)
+[56/76] "where-to-begin-your-jewish-journey"
+  Query: "jewish learning study path beginning" (was: got remote control)
+  Found: "black framed eyeglasses on book page" by DAVIDSON L U N A
+  Uploading to Cloudinary...
+  Done! (rate limit: 19)
+[57/76] "where-to-begin-your-jewish-journey-2"
+  Query: "open road journey beginning path new" (was: got printer paper)
+  Found: "empty road" by Arnaud STECKLE
+  Uploading to Cloudinary...
+  DB error: TypeError: fetch failed
+[58/76] "what-is-shabbat-and-why-do-jews-keep-it-2"
+  Query: "shabbat observance candles family dinner" (was: got generic book page)
+  Found: "A person eating at a table full of food." by Cemrecan Yurtman
+  Uploading to Cloudinary...
+  Done! (rate limit: 49)
+[59/76] "carrying-children-on-shabbat"
+  Query: "parent carrying child toddler walking" (was: got people carrying baskets)
+  Found: "boy and woman holding hands outdoor" by Kelli McClintock
+  Uploading to Cloudinary...
+  Done! (rate limit: 48)
+[60/76] "cleaning-for-chametz"
+  Query: "deep cleaning kitchen scrubbing passover" (was: got man holding stick)
+  No suitable photo found (0 results, all used)
+[61/76] "reliable-vs-unreliable-hechsherim"
+  Query: "kosher symbol certification label food" (was: got book with pink cover)
+  Found: "grayscale photo of store front" by Nick Clement
+  Uploading to Cloudinary...
+  Done! (rate limit: 46)
+[62/76] "what-does-it-mean-to-be-jewish"
+  Query: "jewish identity community belonging diverse" (was: got protest signs)
+  Found: "a group of people holding signs in the street" by Levi Meir Clancy
+  Uploading to Cloudinary...
+  Done! (rate limit: 45)
+[63/76] "israel-modern-era"
+  Query: "israel tel aviv modern city skyline" (was: got toy soldiers)
+  Found: "City skyline across a wide, dry landscape" by Lera Ginzburg
+  Uploading to Cloudinary...
+  Done! (rate limit: 44)
+[64/76] "famous-jewish-commentators-rashi-rambam-etc"
+  Query: "ancient jewish books manuscripts scholar study" (was: got generic plaque)
+  Found: "brown books" by Nikoline Arns
+  Uploading to Cloudinary...
+  Done! (rate limit: 43)
+[65/76] "what-is-allowed-and-prohibited-on-shabbat"
+  Query: "shabbat rest peaceful home observance" (was: got no smoking sign)
+  Found: "white printer paper on white textile" by Sincerely Media
+  Uploading to Cloudinary...
+  Done! (rate limit: 42)
+[66/76] "opening-bottles-and-cans-on-shabbat"
+  Query: "bottles cans beverages drinks opening" (was: got lime on scallop)
+  Found: "Various empty aluminum cans scattered in ice." by Rafael Ishkhanyan
+  Uploading to Cloudinary...
+  Done! (rate limit: 41)
+[67/76] "freedom-and-emunah"
+  Query: "freedom spiritual faith nature sunrise" (was: got man with red flag)
+  Found: "silhouette of a person standing on grass field during sunset" by Najmul H. Hossain
+  Uploading to Cloudinary...
+  Done! (rate limit: 40)
+[68/76] "making-shabbat-meaningful-for-kids"
+  Query: "children family shabbat candles kids" (was: got person kneading food)
+  Found: "man in brown long sleeve shirt playing with lighted candles" by Ricardo Velasquez Contreras
+  Uploading to Cloudinary...
+  Done! (rate limit: 39)
+[69/76] "shabbat-timers-can-you-adjust-them"
+  Query: "timer clock digital switch automatic" (was: got analog gauge)
+  Network error (attempt 1/3): fetch failed
+  Found: "white and brown digital clock at 12 21" by Macro.jr
+  Uploading to Cloudinary...
+  Done! (rate limit: 38)
+[70/76] "asara-btevet-the-siege-of-jerusalem"
+  Query: "jerusalem old city walls ancient" (was: got generic text)
+  Found: "Stone walls and green trees under a blue sky." by George 🦅
+  Uploading to Cloudinary...
+  Done! (rate limit: 37)
+
+--- Progress: 45 fixed, 25 failed, 6 remaining ---
+
+[71/76] "al-hanissim-and-hallel"
+  Query: "chanukah celebration praise singing grateful" (was: got building sign)
+  Found: "a hanukkah menorah with lit candles" by Alla Kemelmakher
+  Uploading to Cloudinary...
+  Done! (rate limit: 36)
+[72/76] "diy-sukkah-decorations-for-kids"
+  Query: "kids arts crafts decorations colorful" (was: got generic paper)
+  Found: "pink plastic toy on white table" by National Cancer Institute
+  Uploading to Cloudinary...
+  Done! (rate limit: 35)
+[73/76] "the-4-sons-which-one-are-you"
+  Query: "passover seder four sons haggadah family" (was: got three random men)
+  No suitable photo found (0 results, all used)
+[74/76] "the-energetic-nature-of-shabbat"
+  Query: "nature energy peaceful spiritual rest" (was: got bench on hillside (ok-ish but can improve))
+  Found: "man standing on rock beside lake" by simon
+  Uploading to Cloudinary...
+  Done! (rate limit: 33)
+[75/76] "the-soul-of-shabbat-neshama-yetera"
+  Query: "soul spiritual candle light warmth" (was: got vase with rose)
+  Found: "lighted candle in black round container" by Ali Shah Lakhani
+  Uploading to Cloudinary...
+  Done! (rate limit: 32)
+[76/76] "who-is-a-jew-according-to-jewish-law"
+  Query: "jewish diverse community together" (was: got protest signs in park)
+  No suitable photo found (0 results, all used)
+
+==========================================================
+  FIX COMPLETE
+==========================================================
+  Fixed: 49
+  Failed: 27
+

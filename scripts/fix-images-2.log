@@ -1,0 +1,162 @@
+
+==========================================================
+  Image Fix Script — Replacing irrelevant images
+==========================================================
+
+Total fixes needed: 27
+Already completed: 81
+Pending: 27
+
+[1/27] "guide-to-sukkot"
+  Query: "outdoor harvest autumn celebration tent" (was: undefined)
+(node:76879) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Network error (attempt 1/3): fetch failed
+  Found: "A group of people in a field with pumpkins" by Anna Blake
+  Uploading to Cloudinary...
+  Done! (rate limit: 49)
+[2/27] "what-is-tefillah-prayer"
+  Query: "man praying devotion morning light" (was: undefined)
+  Found: "Person sitting in a large, sunlit hall" by Alim
+  Uploading to Cloudinary...
+  Done! (rate limit: 48)
+[3/27] "blessing-children-on-friday-night"
+  Query: "parent hands child head blessing love" (was: undefined)
+  Found: "a person holding their head in their hands" by Sam Jam
+  Uploading to Cloudinary...
+  Done! (rate limit: 47)
+[4/27] "mishloach-manot-10-creative-theme-ideas-2"
+  Query: "colorful wrapped gift boxes treats presents" (was: undefined)
+  Found: "gift box lot" by Val Vesa
+  Uploading to Cloudinary...
+  Done! (rate limit: 46)
+[5/27] "overview-of-the-jewish-holiday-cycle-2"
+  Query: "calendar cycle seasons year annual" (was: undefined)
+  Found: "a close up of the side of a boat" by Krzysztof Kowalik
+  Uploading to Cloudinary...
+  Done! (rate limit: 45)
+[6/27] "what-is-purim"
+  Query: "carnival celebration costume masks joy parade" (was: undefined)
+  Found: "A marching band plays music in colorful costumes." by Yuval Zukerman
+  Uploading to Cloudinary...
+  Done! (rate limit: 44)
+[7/27] "glatt-kosher-what-does-it-mean"
+  Query: "fresh meat market quality premium" (was: undefined)
+  Found: "close up photo of raw meat" by Cindie Hansen
+  Uploading to Cloudinary...
+  Done! (rate limit: 43)
+[8/27] "how-to-keep-shabbat-a-beginners-guide"
+  Query: "candles wine bread dinner warm evening" (was: undefined)
+  Found: "a candle next to a cake" by Skyler Ewing
+  Uploading to Cloudinary...
+  Done! (rate limit: 42)
+[9/27] "how-to-start-keeping-kosher"
+  Query: "organized pantry kitchen clean labels" (was: undefined)
+  Network error (attempt 1/3): fetch failed
+  Found: "a shelf filled with containers and containers of food" by Ambitious Studio* | Rick Barrett
+  Uploading to Cloudinary...
+  Done! (rate limit: 49)
+[10/27] "selling-chametz-how-does-it-work"
+  Query: "bread loaves wheat baked goods" (was: undefined)
+  Found: "cereal and three buns" by Wesual Click
+  Uploading to Cloudinary...
+  Done! (rate limit: 48)
+
+--- Progress: 10 fixed, 0 failed, 17 remaining ---
+
+[11/27] "selling-chametz-how-does-it-work-2"
+  Query: "baguette sourdough bakery fresh flour" (was: undefined)
+  Found: "Three rustic loaves of bread dusted with flour" by Leticia Golubov
+  Uploading to Cloudinary...
+  Done! (rate limit: 47)
+[12/27] "shabbat-meals-structure-and-meaning"
+  Query: "elegant dinner table setting candles warm" (was: undefined)
+  Found: "A dining room filled with lots of tables and chairs" by Joshua Manjgo
+  Uploading to Cloudinary...
+  Done! (rate limit: 46)
+[13/27] "pirsumei-nisa-publicizing-the-miracle"
+  Query: "candles window display light night glow" (was: undefined)
+  Found: "candles on brown wooden table" by Minha Baek
+  Uploading to Cloudinary...
+  Done! (rate limit: 45)
+[14/27] "kol-nidrei-and-neilah-explained"
+  Query: "prayer worship solemn spiritual evening" (was: undefined)
+  Found: "a person with the hand on the face" by Kanishk Agarwal
+  Uploading to Cloudinary...
+  Done! (rate limit: 44)
+[15/27] "the-five-inuyim-afflictions"
+  Query: "fasting discipline solemnity reflection" (was: undefined)
+  Found: "a close up of a typewriter with a paper that says positive, disc" by Markus Winkler
+  Uploading to Cloudinary...
+  Done! (rate limit: 43)
+[16/27] "jewish-approach-to-work-and-rest-guide"
+  Query: "hammock relaxation nature tranquil break" (was: undefined)
+  Network error (attempt 1/3): fetch failed
+  Found: "green grass field during daytime" by Savelie Antipov
+  Uploading to Cloudinary...
+  Done! (rate limit: 42)
+[17/27] "understanding-purim"
+  Query: "festival masks costume fun celebration party" (was: undefined)
+  Found: "a couple of people that are standing in the street" by Jens Riesenberg
+  Uploading to Cloudinary...
+  Done! (rate limit: 41)
+[18/27] "what-is-the-mikvah"
+  Query: "natural spring water pool serene blue" (was: undefined)
+  Found: "A natural hot spring with blue water surrounded by rock." by Zihao Wang
+  Uploading to Cloudinary...
+  Done! (rate limit: 40)
+[19/27] "what-is-yom-kippur"
+  Query: "white clothing solemn prayer reflection day" (was: undefined)
+  Found: "White ceremonial robe with orange patterned detail" by フジイ タツヒデ
+  Uploading to Cloudinary...
+  Done! (rate limit: 39)
+[20/27] "building-a-jewish-home-2"
+  Query: "cozy home interior family welcome warm" (was: undefined)
+  Found: "a cat sitting on a table in front of a fireplace" by Hakim Menikh
+  Uploading to Cloudinary...
+  Done! (rate limit: 38)
+
+--- Progress: 20 fixed, 0 failed, 7 remaining ---
+
+[21/27] "building-a-kosher-sukkah"
+  Query: "wooden outdoor structure garden shelter build" (was: undefined)
+  Found: "a wooden bench sitting under a wooden pergoline" by Rafael Hoyos Weht
+  Uploading to Cloudinary...
+  Done! (rate limit: 37)
+[22/27] "how-to-put-on-tefillin"
+  Query: "leather strap arm wrapped ritual morning" (was: undefined)
+  Found: "white and brown wooden chair" by Elena Putina
+  Uploading to Cloudinary...
+  Done! (rate limit: 36)
+[23/27] "what-is-shabbat"
+  Query: "friday evening dinner table warm family glow" (was: undefined)
+  Found: "A formal dining table set for a meal." by Emma Eriksson
+  Uploading to Cloudinary...
+  Done! (rate limit: 35)
+[24/27] "where-to-begin-your-jewish-journey-2"
+  Query: "pathway beginning forest trail walk start" (was: undefined)
+  Found: "brown wooden pathway in the woods" by Johannes Terhürne
+  Uploading to Cloudinary...
+  Done! (rate limit: 34)
+[25/27] "cleaning-for-chametz"
+  Query: "spring cleaning home scrubbing spotless kitchen" (was: undefined)
+  Found: "a kitchen with a sink, stove, and a window" by Bailey Alexander
+  Uploading to Cloudinary...
+  Done! (rate limit: 33)
+[26/27] "the-4-sons-which-one-are-you"
+  Query: "diverse children asking questions curious learning" (was: undefined)
+  Found: "a group of young girls sitting at a table" by UK Black Tech
+  Uploading to Cloudinary...
+  Done! (rate limit: 32)
+[27/27] "who-is-a-jew-according-to-jewish-law"
+  Query: "multicultural group people together identity belonging" (was: undefined)
+  Found: "Four friends smiling in a park during autumn" by Vitaly Gariev
+  Uploading to Cloudinary...
+  Done! (rate limit: 31)
+
+==========================================================
+  FIX COMPLETE
+==========================================================
+  Fixed: 27
+  Failed: 0
+

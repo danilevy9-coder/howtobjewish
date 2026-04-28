@@ -1,0 +1,32 @@
+{
+  "_comment": "Second pass with alternative queries for remaining 27 fixes",
+  "fixes": [
+    { "slug": "guide-to-sukkot", "query": "outdoor harvest autumn celebration tent" },
+    { "slug": "what-is-tefillah-prayer", "query": "man praying devotion morning light" },
+    { "slug": "blessing-children-on-friday-night", "query": "parent hands child head blessing love" },
+    { "slug": "mishloach-manot-10-creative-theme-ideas-2", "query": "colorful wrapped gift boxes treats presents" },
+    { "slug": "overview-of-the-jewish-holiday-cycle-2", "query": "calendar cycle seasons year annual" },
+    { "slug": "what-is-purim", "query": "carnival celebration costume masks joy parade" },
+    { "slug": "glatt-kosher-what-does-it-mean", "query": "fresh meat market quality premium" },
+    { "slug": "how-to-keep-shabbat-a-beginners-guide", "query": "candles wine bread dinner warm evening" },
+    { "slug": "how-to-start-keeping-kosher", "query": "organized pantry kitchen clean labels" },
+    { "slug": "selling-chametz-how-does-it-work", "query": "bread loaves wheat baked goods" },
+    { "slug": "selling-chametz-how-does-it-work-2", "query": "baguette sourdough bakery fresh flour" },
+    { "slug": "shabbat-meals-structure-and-meaning", "query": "elegant dinner table setting candles warm" },
+    { "slug": "pirsumei-nisa-publicizing-the-miracle", "query": "candles window display light night glow" },
+    { "slug": "kol-nidrei-and-neilah-explained", "query": "prayer worship solemn spiritual evening" },
+    { "slug": "the-five-inuyim-afflictions", "query": "fasting discipline solemnity reflection" },
+    { "slug": "jewish-approach-to-work-and-rest-guide", "query": "hammock relaxation nature tranquil break" },
+    { "slug": "understanding-purim", "query": "festival masks costume fun celebration party" },
+    { "slug": "what-is-the-mikvah", "query": "natural spring water pool serene blue" },
+    { "slug": "what-is-yom-kippur", "query": "white clothing solemn prayer reflection day" },
+    { "slug": "building-a-jewish-home-2", "query": "cozy home interior family welcome warm" },
+    { "slug": "building-a-kosher-sukkah", "query": "wooden outdoor structure garden shelter build" },
+    { "slug": "how-to-put-on-tefillin", "query": "leather strap arm wrapped ritual morning" },
+    { "slug": "what-is-shabbat", "query": "friday evening dinner table warm family glow" },
+    { "slug": "where-to-begin-your-jewish-journey-2", "query": "pathway beginning forest trail walk start" },
+    { "slug": "cleaning-for-chametz", "query": "spring cleaning home scrubbing spotless kitchen" },
+    { "slug": "the-4-sons-which-one-are-you", "query": "diverse children asking questions curious learning" },
+    { "slug": "who-is-a-jew-according-to-jewish-law", "query": "multicultural group people together identity belonging" }
+  ]
+}
