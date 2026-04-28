@@ -16,25 +16,7 @@ import { generateContent } from '@/lib/gemini'
 import { getNextSignificantHoliday, isShabbat, type JewishHoliday } from '@/lib/jewish-calendar'
 import { getPhotoUrl } from '@/lib/unsplash'
 import { uploadFromUrl } from '@/lib/cloudinary'
-
-// ═══════════════════════ Types ═══════════════════════
-
-interface ExistingPost {
-  id: string
-  title: string
-  slug: string
-  excerpt: string | null
-}
-
-interface TopicPlan {
-  topic: string
-  seoTitle: string
-  longTailKeywords: string[]
-  interlinkSlugs: string[]
-  categorySlug: string
-  useQAFormat: boolean
-  imageSearchQuery: string
-}
+import type { ExistingPost, TopicPlan } from '@/lib/auto-blog-pipeline'
 
 interface GeneratedPost {
   title: string
@@ -146,7 +128,7 @@ function scheduleNext(settings: AutoBlogSettings): string {
 
 // ═══════════════════════ Topic Generation ═══════════════════════
 
-async function pickTopic(
+export async function pickTopic(
   topicType: 'festival' | 'general',
   existingPosts: ExistingPost[],
   holiday: JewishHoliday | null,
@@ -206,10 +188,10 @@ FORMAT: Respond ONLY with valid JSON, no markdown fences:
 
 // ═══════════════════════ Article Writing ═══════════════════════
 
-async function writeArticle(
+export async function writeArticleContent(
   plan: TopicPlan,
   existingPosts: ExistingPost[]
-): Promise<{ title: string; content: string; excerpt: string; metaTitle: string; metaDescription: string }> {
+): Promise<{ title: string; content: string; excerpt: string; metaTitle: string }> {
   // Build interlink reference
   const interlinkPosts = existingPosts
     .filter((p) => plan.interlinkSlugs.includes(p.slug))
@@ -260,16 +242,6 @@ TONE: Warm, clear, accurate, welcoming. Like a knowledgeable friend explaining t
     ? titleMatch[1].replace(/<[^>]+>/g, '').trim()
     : plan.topic
 
-  // Generate SEO meta
-  const metaPrompt = `Write an SEO meta description (150-160 chars) for this article:
-Title: "${plan.seoTitle}"
-Keywords: ${plan.longTailKeywords.join(', ')}
-Topic: ${plan.topic}
-
-Respond with ONLY the meta description text, nothing else.`
-
-  const metaDescription = (await generateContent(metaPrompt)).trim().replace(/^["']|["']$/g, '')
-
   // Generate excerpt
   const plainText = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
   const excerpt = plainText.slice(0, 250).replace(/\s\S*$/, '') + '...'
@@ -279,13 +251,25 @@ Respond with ONLY the meta description text, nothing else.`
     content,
     excerpt,
     metaTitle: plan.seoTitle,
-    metaDescription,
   }
+}
+
+// ═══════════════════════ Meta Description ═══════════════════════
+
+export async function generateMetaDescription(plan: TopicPlan): Promise<string> {
+  const metaPrompt = `Write an SEO meta description (150-160 chars) for this article:
+Title: "${plan.seoTitle}"
+Keywords: ${plan.longTailKeywords.join(', ')}
+Topic: ${plan.topic}
+
+Respond with ONLY the meta description text, nothing else.`
+
+  return (await generateContent(metaPrompt)).trim().replace(/^["']|["']$/g, '')
 }
 
 // ═══════════════════════ Image ═══════════════════════
 
-async function fetchImage(query: string): Promise<string | null> {
+export async function fetchImage(query: string): Promise<string | null> {
   try {
     const photoUrl = await getPhotoUrl(query)
     if (!photoUrl) return null
@@ -348,11 +332,14 @@ export async function generateBlogPost(): Promise<GeneratedPost> {
 
   // 4. Write the article
   console.log('[auto-blog] Writing article...')
-  const article = await writeArticle(plan, posts)
+  const article = await writeArticleContent(plan, posts)
 
-  // 5. Fetch featured image
-  console.log(`[auto-blog] Fetching image: "${plan.imageSearchQuery}"`)
-  const featuredImage = await fetchImage(plan.imageSearchQuery)
+  // 5. Generate meta + fetch image in parallel
+  console.log('[auto-blog] Generating meta + fetching image...')
+  const [metaDescription, featuredImage] = await Promise.all([
+    generateMetaDescription(plan),
+    fetchImage(plan.imageSearchQuery),
+  ])
 
   // 6. Resolve category
   const matchedCat = cats.find((c) => c.slug === plan.categorySlug)
@@ -385,7 +372,7 @@ export async function generateBlogPost(): Promise<GeneratedPost> {
       content: article.content,
       excerpt: article.excerpt,
       meta_title: article.metaTitle,
-      meta_description: article.metaDescription,
+      meta_description: metaDescription,
       featured_image: featuredImage,
       author_id: author?.id || null,
       status,
@@ -420,7 +407,7 @@ export async function generateBlogPost(): Promise<GeneratedPost> {
     content: article.content,
     excerpt: article.excerpt,
     metaTitle: article.metaTitle,
-    metaDescription: article.metaDescription,
+    metaDescription,
     categoryId,
     featuredImage,
   }
