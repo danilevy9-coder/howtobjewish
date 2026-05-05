@@ -1,7 +1,10 @@
 import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+function getResend() {
+  if (!process.env.RESEND_API_KEY) throw new Error('RESEND_API_KEY not set')
+  return new Resend(process.env.RESEND_API_KEY)
+}
 
 const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID
 
@@ -18,14 +21,14 @@ export async function POST(request: Request) {
 
     if (AUDIENCE_ID) {
       // Add to Resend audience for newsletter
-      await resend.contacts.create({
+      await getResend().contacts.create({
         email,
         audienceId: AUDIENCE_ID,
       })
     }
 
     // Send welcome email to subscriber
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'How to Be Jewish <noreply@howtobjewish.org>',
       to: email,
       subject: 'Welcome to How to Be Jewish',
@@ -41,7 +44,7 @@ export async function POST(request: Request) {
     })
 
     // Notify you of new subscriber
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'How to Be Jewish <noreply@howtobjewish.org>',
       to: 'danilevy9@gmail.com',
       subject: `New Subscriber: ${email}`,

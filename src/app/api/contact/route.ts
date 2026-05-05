@@ -1,7 +1,10 @@
 import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+function getResend() {
+  if (!process.env.RESEND_API_KEY) throw new Error('RESEND_API_KEY not set')
+  return new Resend(process.env.RESEND_API_KEY)
+}
 
 export async function POST(request: Request) {
   try {
@@ -14,7 +17,7 @@ export async function POST(request: Request) {
       )
     }
 
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'How to Be Jewish <noreply@howtobjewish.org>',
       to: 'danilevy9@gmail.com',
       replyTo: email,
