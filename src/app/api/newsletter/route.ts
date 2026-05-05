@@ -24,7 +24,7 @@ export async function POST(request: Request) {
       })
     }
 
-    // Send welcome email
+    // Send welcome email to subscriber
     await resend.emails.send({
       from: 'How to Be Jewish <noreply@howtobjewish.org>',
       to: email,
@@ -38,6 +38,14 @@ export async function POST(request: Request) {
           <p style="color: #666; margin-top: 2em; font-size: 0.9em;">— The How to Be Jewish Team</p>
         </div>
       `,
+    })
+
+    // Notify you of new subscriber
+    await resend.emails.send({
+      from: 'How to Be Jewish <noreply@howtobjewish.org>',
+      to: 'danilevy9@gmail.com',
+      subject: `New Subscriber: ${email}`,
+      html: `<p>New newsletter subscriber: <strong>${email}</strong></p>`,
     })
 
     return NextResponse.json({ success: true })

@@ -16,7 +16,7 @@ export async function POST(request: Request) {
 
     await resend.emails.send({
       from: 'How to Be Jewish <noreply@howtobjewish.org>',
-      to: 'info@howtobjewish.org',
+      to: 'danilevy9@gmail.com',
       replyTo: email,
       subject: `Contact Form: ${subject || 'No subject'}`,
       html: `
