@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import PostCard from '@/components/PostCard'
+import NewsletterForm from '@/components/NewsletterForm'
 import { createClient } from '@/lib/supabase/server'
 
 const featuredCategories = [
@@ -207,19 +208,7 @@ export default async function HomePage() {
           <p className="text-blue-100/70 mb-8 text-lg" style={{ fontFamily: "'Crimson Text', serif" }}>
             Get weekly guides and insights on Jewish life delivered to your inbox. No spam, just wisdom.
           </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="flex-1 px-5 py-3.5 rounded-lg text-gray-900 bg-white border-0 focus:ring-2 focus:ring-[var(--gold)] text-sm"
-            />
-            <button
-              type="button"
-              className="px-6 py-3.5 bg-[var(--gold)] text-[var(--foreground)] font-semibold rounded-lg hover:bg-[var(--gold-light)] transition-colors shadow-lg"
-            >
-              Subscribe
-            </button>
-          </form>
+          <NewsletterForm />
           <p className="text-blue-200/40 text-xs mt-4">Join thousands of readers on their Jewish journey</p>
         </div>
       </section>
