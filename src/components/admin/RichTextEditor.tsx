@@ -1,10 +1,12 @@
 'use client'
 
+import { useState } from 'react'
 import { useEditor, EditorContent } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import Image from '@tiptap/extension-image'
 import Placeholder from '@tiptap/extension-placeholder'
+import ImagePicker from './ImagePicker'
 import {
   Bold,
   Italic,
@@ -25,6 +27,8 @@ interface RichTextEditorProps {
 }
 
 export default function RichTextEditor({ content, onChange }: RichTextEditorProps) {
+  const [showImagePicker, setShowImagePicker] = useState(false)
+
   const editor = useEditor({
     immediatelyRender: false,
     extensions: [
@@ -60,11 +64,11 @@ export default function RichTextEditor({ content, onChange }: RichTextEditorProp
     }
   }
 
-  function addImage() {
-    const url = window.prompt('Enter image URL:')
+  function handleImageSelected(url: string) {
     if (url) {
       editor?.chain().focus().setImage({ src: url }).run()
     }
+    setShowImagePicker(false)
   }
 
   const ToolbarButton = ({
@@ -155,7 +159,7 @@ export default function RichTextEditor({ content, onChange }: RichTextEditorProp
         <ToolbarButton onClick={addLink} title="Add Link">
           <LinkIcon className="w-4 h-4" />
         </ToolbarButton>
-        <ToolbarButton onClick={addImage} title="Add Image">
+        <ToolbarButton onClick={() => setShowImagePicker(true)} title="Add Image">
           <ImageIcon className="w-4 h-4" />
         </ToolbarButton>
 
@@ -171,6 +175,19 @@ export default function RichTextEditor({ content, onChange }: RichTextEditorProp
 
       {/* Editor */}
       <EditorContent editor={editor} />
+
+      {/* Image Picker Modal */}
+      {showImagePicker && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="w-full max-w-lg">
+            <ImagePicker
+              value=""
+              onChange={handleImageSelected}
+              onClose={() => setShowImagePicker(false)}
+            />
+          </div>
+        </div>
+      )}
     </div>
   )
 }
