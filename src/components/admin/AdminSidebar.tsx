@@ -14,6 +14,7 @@ import {
   ShoppingBag,
   LogOut,
   Settings,
+  BarChart3,
 } from 'lucide-react'
 
 const navItems = [
@@ -25,6 +26,7 @@ const navItems = [
   { href: '/admin/queue', label: 'Publish Queue', icon: Clock },
   { href: '/admin/import', label: 'WP Import', icon: Upload },
   { href: '/admin/products', label: 'Products', icon: ShoppingBag },
+  { href: '/admin/analytics', label: 'Analytics', icon: BarChart3 },
   { href: '/admin/settings', label: 'Settings', icon: Settings },
 ]
 
