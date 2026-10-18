@@ -1,7 +1,32 @@
 import Link from 'next/link'
 import PostCard from '@/components/PostCard'
 import NewsletterForm from '@/components/NewsletterForm'
-import { createClient } from '@/lib/supabase/server'
+import { createPublicClient as createClient, SITE_URL, SITE_NAME, jsonLd, REDIRECTED_SLUGS, RESERVED_SLUGS } from '@/lib/site'
+import type { Metadata } from 'next'
+
+export const revalidate = 900
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+  openGraph: { type: 'website', url: '/', siteName: SITE_NAME, title: 'How to Be Jewish - Practical Guides to Jewish Life', description: 'Practical, beginner-friendly guides to Jewish life. Your judgment-free companion on the journey.' },
+}
+
+const homeLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: `${SITE_URL}/`,
+    inLanguage: 'en',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: `${SITE_URL}/`,
+    sameAs: [],
+  },
+]
 
 const featuredCategories = [
   {
@@ -50,10 +75,14 @@ export default async function HomePage() {
     .select('id, title, slug, excerpt, featured_image, published_at')
     .eq('status', 'published')
     .order('published_at', { ascending: false })
-    .limit(6)
+    .limit(12)
+  const latestPosts = (posts || []).filter((p) => !REDIRECTED_SLUGS.has(p.slug) && !RESERVED_SLUGS.has(p.slug)).slice(0, 6)
 
   return (
     <div>
+      {homeLd.map((d, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={jsonLd(d)} />
+      ))}
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[var(--accent)] via-[#1a3a5c] to-[#0f2440]" />
@@ -76,7 +105,7 @@ export default async function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/where-to-begin-your-jewish-journey/"
+              href="/where-to-begin-your-jewish-journey-2/"
               className="px-8 py-3.5 bg-[var(--gold)] text-[var(--foreground)] font-semibold rounded-lg hover:bg-[var(--gold-light)] transition-all shadow-lg hover:shadow-xl"
             >
               Start Your Journey
@@ -155,9 +184,9 @@ export default async function HomePage() {
               View All &rarr;
             </Link>
           </div>
-          {posts && posts.length > 0 ? (
+          {latestPosts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.map((post) => (
+              {latestPosts.map((post) => (
                 <PostCard
                   key={post.id}
                   title={post.title}

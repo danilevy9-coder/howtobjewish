@@ -23,8 +23,8 @@ export default function Footer() {
               Getting Started
             </h4>
             <ul className="space-y-2.5">
-              <li><Link href="/where-to-begin-your-jewish-journey/" className="text-gray-400 hover:text-[var(--gold-light)] text-sm transition-colors">Start Here</Link></li>
-              <li><Link href="/finding-a-mentor-or-rabbi/" className="text-gray-400 hover:text-[var(--gold-light)] text-sm transition-colors">Find a Rabbi</Link></li>
+              <li><Link href="/where-to-begin-your-jewish-journey-2/" className="text-gray-400 hover:text-[var(--gold-light)] text-sm transition-colors">Start Here</Link></li>
+              <li><Link href="/finding-a-mentor-or-rabbi-2/" className="text-gray-400 hover:text-[var(--gold-light)] text-sm transition-colors">Find a Rabbi</Link></li>
               <li><Link href="/how-to-convert-to-judaism/" className="text-gray-400 hover:text-[var(--gold-light)] text-sm transition-colors">Conversion Guide</Link></li>
               <li><Link href="/what-does-it-mean-to-be-jewish/" className="text-gray-400 hover:text-[var(--gold-light)] text-sm transition-colors">What Is Judaism?</Link></li>
             </ul>

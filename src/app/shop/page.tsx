@@ -1,11 +1,14 @@
 import Image from 'next/image'
-import { createClient } from '@/lib/supabase/server'
+import { createPublicClient as createClient } from '@/lib/site'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Shop - Jewish Books & Sefarim',
   description: 'Browse our collection of Jewish books, Sefarim, and Torah literature.',
+  alternates: { canonical: '/shop/' },
 }
+
+export const revalidate = 900
 
 export default async function ShopPage() {
   const supabase = await createClient()

@@ -2,8 +2,14 @@ import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { format } from 'date-fns'
-import { createClient } from '@/lib/supabase/server'
+import { createPublicClient as createClient, SITE_URL, SITE_NAME, absoluteUrl, postDescription, lazyImages, extractFaq, partnerLinks, jsonLd, REDIRECTED_SLUGS } from '@/lib/site'
 import type { Metadata } from 'next'
+
+// Cache each guide and refresh it in the background every 15 minutes.
+export const revalidate = 900
+export async function generateStaticParams() {
+  return []
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -15,20 +21,35 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const { data: post } = await supabase
     .from('posts')
-    .select('title, excerpt, meta_title, meta_description, featured_image')
+    .select('title, excerpt, content, meta_title, meta_description, featured_image, published_at, updated_at')
     .eq('slug', slug)
     .eq('status', 'published')
     .single()
 
-  if (!post) return { title: 'Not Found' }
+  if (!post) return { title: 'Not Found', robots: { index: false } }
 
+  const title = post.meta_title || post.title
+  const description = postDescription(post)
+  const url = `/${slug}/`
   return {
-    title: post.meta_title || post.title,
-    description: post.meta_description || post.excerpt || undefined,
+    title,
+    description,
+    alternates: { canonical: url },
     openGraph: {
-      title: post.meta_title || post.title,
-      description: post.meta_description || post.excerpt || undefined,
+      type: 'article',
+      url,
+      siteName: SITE_NAME,
+      title,
+      description,
+      publishedTime: post.published_at || undefined,
+      modifiedTime: post.updated_at || post.published_at || undefined,
       images: post.featured_image ? [{ url: post.featured_image }] : undefined,
+    },
+    twitter: {
+      card: post.featured_image ? 'summary_large_image' : 'summary',
+      title,
+      description,
+      images: post.featured_image ? [post.featured_image] : undefined,
     },
   }
 }
@@ -60,12 +81,14 @@ export default async function ArticlePage({ params }: PageProps) {
   // Get categories for this post
   const { data: postCategories } = await supabase
     .from('post_categories')
-    .select('category_id, categories ( name, slug )')
+    .select('category_id, categories ( name, slug, parent_id )')
     .eq('post_id', post.id)
 
-  // Get related posts from same categories
+  // Related guides: same categories first, then the newest guides as a fallback.
   const categoryIds: string[] = postCategories?.map((pc: { category_id: string }) => pc.category_id) || []
-  let relatedPosts: { id: string; title: string; slug: string; featured_image: string | null }[] = []
+  type Related = { id: string; title: string; slug: string; featured_image: string | null }
+  let relatedPosts: Related[] = []
+  const skip = (rp: Related) => rp.id === post.id || REDIRECTED_SLUGS.has(rp.slug) || rp.slug === slug
 
   if (categoryIds.length > 0) {
     const { data: relatedPostCategories } = await supabase
@@ -73,29 +96,92 @@ export default async function ArticlePage({ params }: PageProps) {
       .select('post_id')
       .in('category_id', categoryIds)
       .neq('post_id', post.id)
-      .limit(10)
+      .limit(200)
 
     if (relatedPostCategories && relatedPostCategories.length > 0) {
-      const relatedIds = [...new Set(relatedPostCategories.map((rpc: { post_id: string }) => rpc.post_id))]
+      const relatedIds = [...new Set(relatedPostCategories.map((rpc: { post_id: string }) => rpc.post_id))].slice(0, 100)
       const { data: rpData } = await supabase
         .from('posts')
         .select('id, title, slug, featured_image')
-        .in('id', relatedIds.slice(0, 4))
+        .in('id', relatedIds)
         .eq('status', 'published')
+        .order('published_at', { ascending: false })
 
-      relatedPosts = rpData || []
+      relatedPosts = (rpData || []).filter((rp: Related) => !skip(rp)).slice(0, 4)
+    }
+  }
+  if (relatedPosts.length < 4) {
+    const { data: latest } = await supabase
+      .from('posts')
+      .select('id, title, slug, featured_image')
+      .eq('status', 'published')
+      .order('published_at', { ascending: false })
+      .limit(12)
+    for (const rp of (latest || []) as Related[]) {
+      if (relatedPosts.length >= 4) break
+      if (!skip(rp) && !relatedPosts.some((r) => r.id === rp.id)) relatedPosts.push(rp)
     }
   }
 
   const author = post.authors as { name: string; avatar_url: string | null } | null
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const categories: { name: string; slug: string }[] = postCategories?.map((pc: any) => {
+  const categories: { name: string; slug: string; parent_id?: string | null }[] = postCategories?.map((pc: any) => {
     const cat = Array.isArray(pc.categories) ? pc.categories[0] : pc.categories
-    return cat as { name: string; slug: string }
+    return cat as { name: string; slug: string; parent_id?: string | null }
   }).filter(Boolean) || []
+
+  // Structured data: Article, BreadcrumbList and (only where the guide has a Q&A section) FAQPage.
+  const pageUrl = `${SITE_URL}/${slug}/`
+  const description = postDescription(post)
+  let crumbParent: { name: string; slug: string } | null = null
+  const mainCat = categories[0]
+  if (mainCat?.parent_id) {
+    const { data: parent } = await supabase.from('categories').select('name, slug').eq('id', mainCat.parent_id).single()
+    crumbParent = parent
+  }
+  const crumbs: { name: string; url: string }[] = [{ name: 'Home', url: `${SITE_URL}/` }]
+  if (mainCat) {
+    if (crumbParent) crumbs.push({ name: crumbParent.name, url: `${SITE_URL}/category/${crumbParent.slug}/` })
+    crumbs.push({ name: mainCat.name, url: `${SITE_URL}/category/${crumbParent ? crumbParent.slug + '/' : ''}${mainCat.slug}/` })
+  }
+  crumbs.push({ name: post.title, url: pageUrl })
+  const faq = extractFaq(post.content || '')
+  const structuredData: Record<string, unknown>[] = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: post.title,
+      description,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+      url: pageUrl,
+      ...(post.featured_image ? { image: [absoluteUrl(post.featured_image)] } : {}),
+      ...(post.published_at ? { datePublished: post.published_at } : {}),
+      ...(post.updated_at || post.published_at ? { dateModified: post.updated_at || post.published_at } : {}),
+      ...(mainCat ? { articleSection: mainCat.name } : {}),
+      inLanguage: 'en',
+      author: { '@type': 'Organization', name: SITE_NAME, url: `${SITE_URL}/` },
+      publisher: { '@type': 'Organization', name: SITE_NAME, url: `${SITE_URL}/` },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })),
+    },
+  ]
+  if (faq.length > 0) {
+    structuredData.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    })
+  }
+  const partners = partnerLinks(categories.map((c) => c.slug))
 
   return (
     <article className="bg-white">
+      {structuredData.map((d, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={jsonLd(d)} />
+      ))}
       {/* Article Header */}
       <header className="max-w-4xl mx-auto px-4 pt-10 pb-6">
         {/* Categories */}
@@ -172,9 +258,26 @@ export default async function ArticlePage({ params }: PageProps) {
       <div className="max-w-3xl mx-auto px-4 pb-12">
         <div
           className="prose max-w-none"
-          dangerouslySetInnerHTML={{ __html: post.content }}
+          dangerouslySetInnerHTML={{ __html: lazyImages(post.content || '') }}
         />
       </div>
+
+      {/* Related sites, only on guides where they fit */}
+      {partners.length > 0 && (
+        <aside className="max-w-3xl mx-auto px-4 pb-10">
+          <div className="rounded-xl border border-[var(--border)] bg-[var(--cream)] p-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--gold)] mb-3">Also from our family of sites</p>
+            <ul className="space-y-2">
+              {partners.map((p) => (
+                <li key={p.href} className="text-sm text-[var(--muted)]">
+                  <a href={p.href} target="_blank" rel="noopener" className="font-semibold text-[var(--accent)] hover:underline">{p.name}</a>
+                  {': '}{p.text}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </aside>
+      )}
 
       {/* Divider */}
       <div className="max-w-3xl mx-auto px-4">

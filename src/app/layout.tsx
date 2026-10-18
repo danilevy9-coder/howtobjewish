@@ -6,6 +6,7 @@ import AnalyticsTracker from '@/components/AnalyticsTracker'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.howtobjewish.org'),
   title: {
     default: 'How to Be Jewish - Practical Guides to Jewish Life',
     template: '%s | How to Be Jewish',
@@ -25,6 +26,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className="min-h-screen flex flex-col bg-[var(--background)]">
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>

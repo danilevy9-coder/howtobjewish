@@ -26,7 +26,7 @@ export default function NotFound() {
           Go Home
         </Link>
         <Link
-          href="/where-to-begin-your-jewish-journey/"
+          href="/where-to-begin-your-jewish-journey-2/"
           className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
         >
           Start Here

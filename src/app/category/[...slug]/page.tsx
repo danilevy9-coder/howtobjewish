@@ -1,8 +1,13 @@
 import { notFound } from 'next/navigation'
-import { createClient } from '@/lib/supabase/server'
+import { createPublicClient as createClient, SITE_URL, jsonLd, REDIRECTED_SLUGS } from '@/lib/site'
 import PostCard from '@/components/PostCard'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+
+export const revalidate = 900
+export async function generateStaticParams() {
+  return []
+}
 
 interface PageProps {
   params: Promise<{ slug: string[] }>
@@ -15,15 +20,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const { data: category } = await supabase
     .from('categories')
-    .select('name, description')
+    .select('name, description, parent_id')
     .eq('slug', categorySlug)
     .single()
 
-  if (!category) return { title: 'Category Not Found' }
+  if (!category) return { title: 'Category Not Found', robots: { index: false } }
 
+  let path = `/category/${categorySlug}/`
+  if (category.parent_id) {
+    const { data: parent } = await supabase.from('categories').select('slug').eq('id', category.parent_id).single()
+    if (parent) path = `/category/${parent.slug}/${categorySlug}/`
+  }
+  const description = category.description || `Browse all guides about ${category.name} on How to Be Jewish.`
   return {
-    title: category.name,
-    description: category.description || `Browse all articles about ${category.name} on How to Be Jewish.`,
+    title: `${category.name} Guides`,
+    description,
+    alternates: { canonical: path },
+    openGraph: { type: 'website', url: path, title: `${category.name} Guides`, description },
   }
 }
 
@@ -107,6 +120,8 @@ export default async function CategoryPage({ params }: PageProps) {
     }
   }
 
+  posts = posts.filter((p) => !REDIRECTED_SLUGS.has(p.slug))
+
   // Build breadcrumb path
   const breadcrumbs: { name: string; href: string }[] = []
   if (parentCategory) {
@@ -117,8 +132,20 @@ export default async function CategoryPage({ params }: PageProps) {
   }
   breadcrumbs.push({ name: category.name, href: '' })
 
+  const catUrl = `${SITE_URL}/category/${parentCategory ? parentCategory.slug + '/' : ''}${category.slug}/`
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      ...(parentCategory ? [{ '@type': 'ListItem', position: 2, name: parentCategory.name, item: `${SITE_URL}/category/${parentCategory.slug}/` }] : []),
+      { '@type': 'ListItem', position: parentCategory ? 3 : 2, name: category.name, item: catUrl },
+    ],
+  }
+
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(breadcrumbLd)} />
       {/* Category Header */}
       <div className="bg-gradient-to-br from-[var(--accent)] to-[#0f2440] text-white py-14 md:py-20 relative overflow-hidden">
         <div className="absolute inset-0 pattern-bg opacity-10" />

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'About',
   description: 'About How to Be Jewish - practical, judgment-free guides to Jewish life.',
+  alternates: { canonical: '/about/' },
 }
 
 export default function AboutPage() {
